@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD7dc6287148731c10e5dac6a5eb034995</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FD7dc6287148731c10e5dac6a5eb034995":{"$COCollectionField":[{"Boot_Volume_Details":{"FDb0a6247155731c106b0cb6a1e2899340":["Any"],"FDb0a6247155731c106b0cb6a1e2899340.$field_facets":{"SimpleMapFacet":"{\"sourceId\":\"d134f1ab-9176-4957-8936-40e28b7c6cbb\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Boot Volume Detailed List\",\"mandatory\":\"false\",\"child_name\":\"Boot_Volume_Details\",\"uiUniqueId\":\"1b51f71b-36d9-483d-9d96-176ce870fb8f\",\"uiTypeLabel\":\"Any\",\"child_label\":\"Boot Volume Details\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"d8b5c577-2457-4229-9198-690d91a04f2e\",\"sourceType\":\"step\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f3188006-265f-4537-beec-fc132e722b23\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"d134f1ab-9176-4957-8936-40e28b7c6cbb\",\"default_value\":\"\",\"label\":\"Boot Volume Detailed List\",\"mandatory\":\"false\",\"child_name\":\"Boot_Volume_Details\",\"uiUniqueId\":\"1b51f71b-36d9-483d-9d96-176ce870fb8f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD7dc6287148731c10e5dac6a5eb034995\",\"child_label\":\"Boot Volume Details\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"d8b5c577-2457-4229-9198-690d91a04f2e\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"435e082a-ac68-40ef-aec1-b763fcd98d2f\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD7dc6287148731c10e5dac6a5eb034995.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"d134f1ab-9176-4957-8936-40e28b7c6cbb\",\"default_value\":\"\",\"label\":\"Boot Volume Detailed List\",\"mandatory\":\"false\",\"child_name\":\"Boot_Volume_Details\",\"uiUniqueId\":\"1b51f71b-36d9-483d-9d96-176ce870fb8f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD7dc6287148731c10e5dac6a5eb034995\",\"child_label\":\"Boot Volume Details\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"d8b5c577-2457-4229-9198-690d91a04f2e\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"435e082a-ac68-40ef-aec1-b763fcd98d2f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 06:23:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31c62871db731c1020c17a2faa961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD7dc6287148731c10e5dac6a5eb034995</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_31c62871db731c1020c17a2faa961996</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 06:23:51</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

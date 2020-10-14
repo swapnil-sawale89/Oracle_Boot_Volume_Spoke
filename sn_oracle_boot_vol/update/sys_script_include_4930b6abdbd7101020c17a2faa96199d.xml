@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_oracle_boot_vol.OracleBootVolumeUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>OracleBootVolumeUtils</name>
+        <script><![CDATA[var OracleBootVolumeUtils = Class.create();
+OracleBootVolumeUtils.prototype = {
+    initialize: function() {},
+    validateInputVariables: function(inputs, outputs) {
+        for (var key in inputs) {
+            var value = inputs[key];
+            if (typeof value == 'string')
+                inputs[key] = value.trim();
+            else
+                inputs[key] = value;
+        }
+        return inputs;
+    },
+
+    validateMandatoryVariables: function(obj, keys) {
+        keys.forEach(function(key) {
+            if (!obj[key])
+                throw new Error("Error while executing, mandatory information isn't passed in " + key);
+        });
+    },
+
+    createTagsPayload: function(inputTags) {
+        var tags = {};
+        inputTags.forEach(function(property) {
+            if (property.Name)
+                tags[property.Name] = property.Value;
+        });
+        return tags;
+    },
+    trimValues: function(inputArr) {
+        inputArr.forEach(function(inputArr) {
+            for (var key in inputArr) {
+                inputArr[key] = inputArr[key].trim();
+            }
+            return inputArr;
+        });
+
+    },
+
+    createPayload: function(obj, keys) {
+        var payload = {};
+        keys.forEach(function(key) {
+            if (obj[key] && typeof obj[key] == 'string') {
+                payload[key] = obj[key];
+            } else if (obj[key] && typeof obj[key] == 'object' && obj[key].length > 0) {
+                var value = obj[key].trim;
+                if (value) {
+                    payload[key] = obj[key];
+                }
+            }else if(obj[key] && typeof obj[key] == 'boolean'){
+				payload[key] = obj[key];
+			}
+        });
+        return payload;
+    },
+
+    type: 'OracleBootVolumeUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 06:24:53</sys_created_on>
+        <sys_id>4930b6abdbd7101020c17a2faa96199d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>OracleBootVolumeUtils</sys_name>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_script_include_4930b6abdbd7101020c17a2faa96199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 06:41:11</sys_updated_on>
+    </sys_script_include>
+</record_update>
