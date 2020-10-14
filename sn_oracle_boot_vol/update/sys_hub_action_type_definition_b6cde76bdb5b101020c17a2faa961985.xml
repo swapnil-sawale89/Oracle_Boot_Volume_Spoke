@@ -29,7 +29,7 @@
         <sys_mod_count>11</sys_mod_count>
         <sys_name>Delete Boot Volume</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b6cde76bdb5b101020c17a2faa961985</sys_update_name>
@@ -2143,7 +2143,7 @@
         <sys_id>5aef67ebdb5b101020c17a2faa96193a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -2167,7 +2167,7 @@
         <sys_id>26ef67ebdb5b101020c17a2faa96199b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -2190,7 +2190,7 @@
         <sys_id>6eef67ebdb5b101020c17a2faa961988</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -4356,7 +4356,7 @@
         <sys_id>ce50bbebdb5b101020c17a2faa96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -4380,7 +4380,7 @@
         <sys_id>ae50fbebdb5b101020c17a2faa961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -4403,7 +4403,7 @@
         <sys_id>ae50fbebdb5b101020c17a2faa961906</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>

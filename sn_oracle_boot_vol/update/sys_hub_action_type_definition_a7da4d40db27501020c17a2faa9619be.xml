@@ -29,7 +29,7 @@
         <sys_mod_count>15</sys_mod_count>
         <sys_name>Lookup Boot Volume Attachments</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a7da4d40db27501020c17a2faa9619be</sys_update_name>
@@ -3536,7 +3536,7 @@
         <sys_id>499e0904db27501020c17a2faa961948</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -3559,7 +3559,7 @@
         <sys_id>859e0904db27501020c17a2faa96194e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -3582,7 +3582,7 @@
         <sys_id>8d9e0904db27501020c17a2faa961953</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -3606,7 +3606,7 @@
         <sys_id>3d9e0904db27501020c17a2faa9619df</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -3629,7 +3629,7 @@
         <sys_id>759e0904db27501020c17a2faa9619e5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -3652,7 +3652,7 @@
         <sys_id>e19e0904db27501020c17a2faa9619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -7211,7 +7211,7 @@
         <sys_id>51ae8904db27501020c17a2faa9619ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -7234,7 +7234,7 @@
         <sys_id>99ae8904db27501020c17a2faa9619e9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -7257,7 +7257,7 @@
         <sys_id>c1ae8904db27501020c17a2faa9619e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -7281,7 +7281,7 @@
         <sys_id>75aec904db27501020c17a2faa96195e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -7304,7 +7304,7 @@
         <sys_id>75aec904db27501020c17a2faa961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
@@ -7327,7 +7327,7 @@
         <sys_id>7daec904db27501020c17a2faa961963</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>

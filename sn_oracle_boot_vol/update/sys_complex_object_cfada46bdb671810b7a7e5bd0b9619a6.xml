@@ -14,7 +14,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FD0fada46bb56718106d3732e166e773a6</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_complex_object_cfada46bdb671810b7a7e5bd0b9619a6</sys_update_name>
