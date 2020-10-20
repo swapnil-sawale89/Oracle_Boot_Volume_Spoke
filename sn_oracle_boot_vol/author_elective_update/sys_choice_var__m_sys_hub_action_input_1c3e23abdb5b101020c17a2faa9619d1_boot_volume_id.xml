@@ -35,5 +35,24 @@
             <sys_updated_on>2020-10-05 07:45:54</sys_updated_on>
             <value/>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Updatenow</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_1c3e23abdb5b101020c17a2faa9619d1</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-19 06:23:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75e9684cdb44205020c17a2faa9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-19 06:23:50</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrqomtibiivqo7k5mv5rlqe7pziq5ujvv7w5u2ytdxkbe35mehmu2q</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
