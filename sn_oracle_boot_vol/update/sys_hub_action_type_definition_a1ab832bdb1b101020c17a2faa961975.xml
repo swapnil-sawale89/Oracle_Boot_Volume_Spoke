@@ -2933,7 +2933,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">955630efdb671810b7a7e5bd0b961992</action_input>
         <action_inputs/>
-        <action_type display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</action_type>
+        <action_type display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-05 07:45:30</sys_created_on>
         <sys_id>d95630efdb671810b7a7e5bd0b96199a</sys_id>
@@ -10558,7 +10558,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">1f6674efdb671810b7a7e5bd0b9619bd</action_input>
         <action_inputs/>
-        <action_type display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</action_type>
+        <action_type display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-05 07:45:54</sys_created_on>
         <sys_id>9b6674efdb671810b7a7e5bd0b9619c5</sys_id>

@@ -1842,7 +1842,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">7d27bcefdb671810b7a7e5bd0b9619ad</action_input>
         <action_inputs/>
-        <action_type display_value="Lookup Boot Volume Attachments">a7da4d40db27501020c17a2faa9619be</action_type>
+        <action_type display_value="Look Up Boot Volume Attachments">a7da4d40db27501020c17a2faa9619be</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-05 07:49:04</sys_created_on>
         <sys_id>bd27bcefdb671810b7a7e5bd0b9619b5</sys_id>
@@ -6491,7 +6491,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">c5377023dba71810b7a7e5bd0b9619c1</action_input>
         <action_inputs/>
-        <action_type display_value="Lookup Boot Volume Attachments">a7da4d40db27501020c17a2faa9619be</action_type>
+        <action_type display_value="Look Up Boot Volume Attachments">a7da4d40db27501020c17a2faa9619be</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-05 07:49:18</sys_created_on>
         <sys_id>41377023dba71810b7a7e5bd0b9619ef</sys_id>

@@ -12,10 +12,10 @@
         <description>&lt;p&gt;Lists the boot volumes in the specified compartment.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;Compartment ID&lt;/b&gt; -OCID of the compartment&lt;/li&gt; &lt;p&gt;&lt;/p&gt; &lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure, Status is set to “Error”.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error, along with code. Populated only when an error occurs.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Boot Volume Detailed List&lt;/b&gt; -Lists of boot volumes with details in the specified compartment.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Output&lt;/b&gt; -Lists of boot volumes in the specified compartment.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bad Request.&lt;/li&gt; &lt;li&gt;Internal Server Error.&lt;/li&gt; &lt;li&gt;Not Found.&lt;/li&gt; &lt;li&gt;Unauthorized.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;To use this action, the corresponding Oracle connection and credential must be created and associated with the Oracle Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt; &lt;/p&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt; &lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;. &lt;/p&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>lookup_boot_volume</internal_name>
-        <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.volume_group_id}}","label":"action➛Volume Group ID","type":"action","ref":""},{"name":"{{step[9190bdce-1235-4e37-860b-cc8f734f785a].status_code}}","label":"step➛Look up Boot Volume➛Status Code","type":"step","ref":""},{"name":"{{step[9190bdce-1235-4e37-860b-cc8f734f785a].response_body}}","label":"step➛Look up Boot Volume➛Response Body","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].availability_domain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].availabilitydomain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].compartment_id}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].compartmentid}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].volume_group_id}}","label":"step➛Pre Processing➛Volume Group Id","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].volumegroupid}}","label":"step➛Pre Processing➛Volume Group ID","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].documents}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].bootvolumedetailedlist}}","label":"step➛Post Processing➛bootVolumeDetailedList","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].boot_volume_detailed_list}}","label":"step➛Post Processing➛Boot Volume Detailed List","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].boot_volume_detailed_list.Boot_Volume_Details}}","label":"step➛Post Processing➛Boot Volume Detailed List➛Boot Volume Details","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>f8877884db84205020c17a2faa9619f6</latest_snapshot>
+        <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.volume_group_id}}","label":"action➛Volume Group ID","type":"action","ref":""},{"name":"{{step[9190bdce-1235-4e37-860b-cc8f734f785a].status_code}}","label":"step➛Look Up Boot Volume➛Status Code","type":"step","ref":""},{"name":"{{step[9190bdce-1235-4e37-860b-cc8f734f785a].response_body}}","label":"step➛Look Up Boot Volume➛Response Body","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].availability_domain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].availabilitydomain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].compartment_id}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].compartmentid}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].volume_group_id}}","label":"step➛Pre Processing➛Volume Group Id","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].volumegroupid}}","label":"step➛Pre Processing➛Volume Group ID","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].documents}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].bootvolumedetailedlist}}","label":"step➛Post Processing➛bootVolumeDetailedList","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].boot_volume_detailed_list}}","label":"step➛Post Processing➛Boot Volume Detailed List","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].boot_volume_detailed_list.Boot_Volume_Details}}","label":"step➛Post Processing➛Boot Volume Detailed List➛Boot Volume Details","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>82f2ead0db80605020c17a2faa961997</latest_snapshot>
         <master_snapshot>864ea0abdb671810b7a7e5bd0b961927</master_snapshot>
-        <name>Look up Boot Volume</name>
+        <name>Look Up Boot Volume</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d6928c77db9b101020c17a2faa96191b</sys_id>
-        <sys_mod_count>52</sys_mod_count>
-        <sys_name>Look up Boot Volume</sys_name>
+        <sys_mod_count>57</sys_mod_count>
+        <sys_name>Look Up Boot Volume</sys_name>
         <sys_overrides/>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d6928c77db9b101020c17a2faa96191b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:23:22</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -103,7 +103,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=d6928c77db9b101020c17a2faa96191b^sys_idNOT INb7e6003bdb9b101020c17a2faa9619b0,c8f6003bdb9b101020c17a2faa9619da,d8f6003bdb9b101020c17a2faa9619f3"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
+        <action display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
         <cid>06c12f1c-7d2f-428d-a13d-b4886a0f47e5</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -393,14 +393,14 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
+        <action display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
         <cid>9190bdce-1235-4e37-860b-cc8f734f785a</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>Look up Boot Volume</label>
+        <label>Look Up Boot Volume</label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -408,10 +408,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 12:41:12</sys_created_on>
         <sys_id>c8f6003bdb9b101020c17a2faa9619da</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-15 10:42:16</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:50:59</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c8f6003bdb9b101020c17a2faa9619da"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -663,7 +663,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Look up Boot Volume">c8f6003bdb9b101020c17a2faa9619da</model>
+        <model display_value="Look Up Boot Volume">c8f6003bdb9b101020c17a2faa9619da</model>
         <model_id>c8f6003bdb9b101020c17a2faa9619da</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_c8f6003bdb9b101020c17a2faa9619da</name>
@@ -706,7 +706,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
+        <action display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
         <cid>d134f1ab-9176-4957-8936-40e28b7c6cbb</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1248,7 +1248,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=69888358-6199-4298-bfa7-76f5f89bf1da,co_type_name=FDe0a6247136731c10880c2ef54c8bad28,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e</attributes>
+        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=9ec77b4d-b845-4b5d-ac7b-b761ff8698ee,co_type_name=FDe0a6247136731c10880c2ef54c8bad28,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1306,14 +1306,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-12 06:23:14</sys_created_on>
         <sys_id>f4a62471db731c1020c17a2faa961931</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:23:15</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1365,7 +1365,7 @@
         <label>Compartment ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
+        <model display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
         <model_id>d6928c77db9b101020c17a2faa96191b</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d6928c77db9b101020c17a2faa96191b</name>
@@ -1412,7 +1412,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=3be37f39-170c-4d12-880c-c08ac15b488d,co_type_name=FDb0a6247155731c106b0cb6a1e2899340,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d134f1ab-9176-4957-8936-40e28b7c6cbb,sourceType=step,sourceUiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1b51f71b-36d9-483d-9d96-176ce870fb8f</attributes>
+        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=59cc16ad-0553-4fbb-b5b7-53a2b53ba5c3,co_type_name=FDb0a6247155731c106b0cb6a1e2899340,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d134f1ab-9176-4957-8936-40e28b7c6cbb,sourceType=step,sourceUiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1b51f71b-36d9-483d-9d96-176ce870fb8f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1449,7 +1449,7 @@
         <label>Boot Volume Detailed List</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
+        <model display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
         <model_id>d6928c77db9b101020c17a2faa96191b</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d6928c77db9b101020c17a2faa96191b</name>
@@ -1472,14 +1472,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-12 06:23:14</sys_created_on>
         <sys_id>30a62471db731c1020c17a2faa96194c</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:23:15</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1532,7 +1532,7 @@
         <label>Output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
+        <model display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
         <model_id>d6928c77db9b101020c17a2faa96191b</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d6928c77db9b101020c17a2faa96191b</name>
@@ -1615,7 +1615,7 @@
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
+        <model display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
         <model_id>d6928c77db9b101020c17a2faa96191b</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d6928c77db9b101020c17a2faa96191b</name>
@@ -1698,7 +1698,7 @@
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
+        <model display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</model>
         <model_id>d6928c77db9b101020c17a2faa96191b</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d6928c77db9b101020c17a2faa96191b</name>
@@ -1742,7 +1742,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=d6928c77db9b101020c17a2faa96191b^sys_idNOT INb7e6003bdb9b101020c17a2faa9619b0,c8f6003bdb9b101020c17a2faa9619da,d8f6003bdb9b101020c17a2faa9619f3"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
+        <action display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
         <cid>06c12f1c-7d2f-428d-a13d-b4886a0f47e5</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2032,14 +2032,14 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
+        <action display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
         <cid>9190bdce-1235-4e37-860b-cc8f734f785a</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>Look up Boot Volume</label>
+        <label>Look Up Boot Volume</label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -2047,10 +2047,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 12:41:12</sys_created_on>
         <sys_id>c8f6003bdb9b101020c17a2faa9619da</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-15 10:42:16</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:50:59</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c8f6003bdb9b101020c17a2faa9619da"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2302,7 +2302,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Look up Boot Volume">c8f6003bdb9b101020c17a2faa9619da</model>
+        <model display_value="Look Up Boot Volume">c8f6003bdb9b101020c17a2faa9619da</model>
         <model_id>c8f6003bdb9b101020c17a2faa9619da</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_c8f6003bdb9b101020c17a2faa9619da</name>
@@ -2345,7 +2345,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
+        <action display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</action>
         <cid>d134f1ab-9176-4957-8936-40e28b7c6cbb</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2887,7 +2887,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=69888358-6199-4298-bfa7-76f5f89bf1da,co_type_name=FDe0a6247136731c10880c2ef54c8bad28,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e</attributes>
+        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=9ec77b4d-b845-4b5d-ac7b-b761ff8698ee,co_type_name=FDe0a6247136731c10880c2ef54c8bad28,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2945,14 +2945,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-12 06:23:14</sys_created_on>
         <sys_id>f4a62471db731c1020c17a2faa961931</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:23:15</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3083,19 +3083,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=d6928c77db9b101020c17a2faa96191b^sys_idNOT IN2b4ee0abdb671810b7a7e5bd0b9619e0"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</action_id>
+        <action_id display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2b4ee0abdb671810b7a7e5bd0b9619e0","name":"plan"}}</plan>
-        <snapshot>f8877884db84205020c17a2faa9619f6</snapshot>
+        <snapshot>82f2ead0db80605020c17a2faa961997</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-05 07:10:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2b4ee0abdb671810b7a7e5bd0b9619e0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:23:25</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:22</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3108,20 +3108,20 @@
         <copied_from_name/>
         <description>&lt;p&gt;Lists the boot volumes in the specified compartment.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;Compartment ID&lt;/b&gt; -OCID of the compartment&lt;/li&gt; &lt;p&gt;&lt;/p&gt; &lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure, Status is set to “Error”.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error, along with code. Populated only when an error occurs.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Boot Volume Detailed List&lt;/b&gt; -Lists of boot volumes with details in the specified compartment.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Output&lt;/b&gt; -Lists of boot volumes in the specified compartment.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bad Request.&lt;/li&gt; &lt;li&gt;Internal Server Error.&lt;/li&gt; &lt;li&gt;Not Found.&lt;/li&gt; &lt;li&gt;Unauthorized.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;To use this action, the corresponding Oracle connection and credential must be created and associated with the Oracle Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt; &lt;/p&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt; &lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;. &lt;/p&gt;</description>
         <internal_name>lookup_boot_volume</internal_name>
-        <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.volume_group_id}}","label":"action➛Volume Group ID","type":"action","ref":""},{"name":"{{step[9190bdce-1235-4e37-860b-cc8f734f785a].status_code}}","label":"step➛Look up Boot Volume➛Status Code","type":"step","ref":""},{"name":"{{step[9190bdce-1235-4e37-860b-cc8f734f785a].response_body}}","label":"step➛Look up Boot Volume➛Response Body","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].availability_domain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].availabilitydomain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].compartment_id}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].compartmentid}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].volume_group_id}}","label":"step➛Pre Processing➛Volume Group Id","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].volumegroupid}}","label":"step➛Pre Processing➛Volume Group ID","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].documents}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].bootvolumedetailedlist}}","label":"step➛Post Processing➛bootVolumeDetailedList","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].boot_volume_detailed_list}}","label":"step➛Post Processing➛Boot Volume Detailed List","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].boot_volume_detailed_list.Boot_Volume_Details}}","label":"step➛Post Processing➛Boot Volume Detailed List➛Boot Volume Details","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.volume_group_id}}","label":"action➛Volume Group ID","type":"action","ref":""},{"name":"{{step[9190bdce-1235-4e37-860b-cc8f734f785a].status_code}}","label":"step➛Look Up Boot Volume➛Status Code","type":"step","ref":""},{"name":"{{step[9190bdce-1235-4e37-860b-cc8f734f785a].response_body}}","label":"step➛Look Up Boot Volume➛Response Body","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].availability_domain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].availabilitydomain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].compartment_id}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].compartmentid}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].volume_group_id}}","label":"step➛Pre Processing➛Volume Group Id","type":"step","ref":""},{"name":"{{step[06c12f1c-7d2f-428d-a13d-b4886a0f47e5].volumegroupid}}","label":"step➛Pre Processing➛Volume Group ID","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].documents}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].bootvolumedetailedlist}}","label":"step➛Post Processing➛bootVolumeDetailedList","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].boot_volume_detailed_list}}","label":"step➛Post Processing➛Boot Volume Detailed List","type":"step","ref":""},{"name":"{{step[d134f1ab-9176-4957-8936-40e28b7c6cbb].boot_volume_detailed_list.Boot_Volume_Details}}","label":"step➛Post Processing➛Boot Volume Detailed List➛Boot Volume Details","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Look up Boot Volume</name>
+        <name>Look Up Boot Volume</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Look up Boot Volume">d6928c77db9b101020c17a2faa96191b</parent_action>
+        <parent_action display_value="Look Up Boot Volume">d6928c77db9b101020c17a2faa96191b</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-05 07:10:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>864ea0abdb671810b7a7e5bd0b961927</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3129,7 +3129,7 @@
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:23:21</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:18</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3198,7 +3198,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=864ea0abdb671810b7a7e5bd0b961927^sys_idNOT IN864ea0abdb671810b7a7e5bd0b96193b,d64ea0abdb671810b7a7e5bd0b96198c,da4ea0abdb671810b7a7e5bd0b961974"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
+        <action display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
         <cid>06c12f1c-7d2f-428d-a13d-b4886a0f47e5</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3488,7 +3488,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
+        <action display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
         <cid>d134f1ab-9176-4957-8936-40e28b7c6cbb</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3787,7 +3787,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=69888358-6199-4298-bfa7-76f5f89bf1da,co_type_name=FD7587b8844f8420506b933863f3faacee,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e</attributes>
+        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=9ec77b4d-b845-4b5d-ac7b-b761ff8698ee,co_type_name=FD76f22ed00880605029c096d6d8f5f757,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3845,14 +3845,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-12 06:23:51</sys_created_on>
         <sys_id>31c62871db731c1020c17a2faa96198a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:23:21</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4108,14 +4108,14 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
+        <action display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
         <cid>9190bdce-1235-4e37-860b-cc8f734f785a</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>Look up Boot Volume</label>
+        <label>Look Up Boot Volume</label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -4123,10 +4123,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-05 07:10:20</sys_created_on>
         <sys_id>da4ea0abdb671810b7a7e5bd0b961974</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-15 10:43:18</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:18</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=da4ea0abdb671810b7a7e5bd0b961974"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4378,7 +4378,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Look up Boot Volume">da4ea0abdb671810b7a7e5bd0b961974</model>
+        <model display_value="Look Up Boot Volume">da4ea0abdb671810b7a7e5bd0b961974</model>
         <model_id>da4ea0abdb671810b7a7e5bd0b961974</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_da4ea0abdb671810b7a7e5bd0b961974</name>
@@ -4460,7 +4460,7 @@
         <label>Compartment ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
+        <model display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
         <model_id>864ea0abdb671810b7a7e5bd0b961927</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_864ea0abdb671810b7a7e5bd0b961927</name>
@@ -4507,7 +4507,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=3be37f39-170c-4d12-880c-c08ac15b488d,co_type_name=FDf187f8846f8420505cc1a2f056d60d00,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d134f1ab-9176-4957-8936-40e28b7c6cbb,sourceType=step,sourceUiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1b51f71b-36d9-483d-9d96-176ce870fb8f</attributes>
+        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=59cc16ad-0553-4fbb-b5b7-53a2b53ba5c3,co_type_name=FD7ef22ed09480605016ce3d54082a0268,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d134f1ab-9176-4957-8936-40e28b7c6cbb,sourceType=step,sourceUiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1b51f71b-36d9-483d-9d96-176ce870fb8f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4544,7 +4544,7 @@
         <label>Boot Volume Detailed List</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
+        <model display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
         <model_id>864ea0abdb671810b7a7e5bd0b961927</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_864ea0abdb671810b7a7e5bd0b961927</name>
@@ -4567,14 +4567,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-12 06:23:52</sys_created_on>
         <sys_id>46c62871db731c1020c17a2faa9619a1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:23:22</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4627,7 +4627,7 @@
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
+        <model display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
         <model_id>864ea0abdb671810b7a7e5bd0b961927</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_864ea0abdb671810b7a7e5bd0b961927</name>
@@ -4710,7 +4710,7 @@
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
+        <model display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
         <model_id>864ea0abdb671810b7a7e5bd0b961927</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_864ea0abdb671810b7a7e5bd0b961927</name>
@@ -4793,7 +4793,7 @@
         <label>Output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
+        <model display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</model>
         <model_id>864ea0abdb671810b7a7e5bd0b961927</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_864ea0abdb671810b7a7e5bd0b961927</name>
@@ -4837,7 +4837,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=864ea0abdb671810b7a7e5bd0b961927^sys_idNOT IN864ea0abdb671810b7a7e5bd0b96193b,d64ea0abdb671810b7a7e5bd0b96198c,da4ea0abdb671810b7a7e5bd0b961974"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
+        <action display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
         <cid>06c12f1c-7d2f-428d-a13d-b4886a0f47e5</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -5127,7 +5127,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
+        <action display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
         <cid>d134f1ab-9176-4957-8936-40e28b7c6cbb</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -5426,7 +5426,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=69888358-6199-4298-bfa7-76f5f89bf1da,co_type_name=FD7587b8844f8420506b933863f3faacee,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e</attributes>
+        <attributes>child_label=Boot Volume Details,child_name=Boot_Volume_Details,child_type=object,child_type_label=Object,child_uiUniqueId=9ec77b4d-b845-4b5d-ac7b-b761ff8698ee,co_type_name=FD76f22ed00880605029c096d6d8f5f757,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d8b5c577-2457-4229-9198-690d91a04f2e</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5484,14 +5484,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-12 06:23:51</sys_created_on>
         <sys_id>31c62871db731c1020c17a2faa96198a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:23:21</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5747,14 +5747,14 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
+        <action display_value="Look Up Boot Volume">864ea0abdb671810b7a7e5bd0b961927</action>
         <cid>9190bdce-1235-4e37-860b-cc8f734f785a</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>Look up Boot Volume</label>
+        <label>Look Up Boot Volume</label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -5762,10 +5762,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-05 07:10:20</sys_created_on>
         <sys_id>da4ea0abdb671810b7a7e5bd0b961974</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-15 10:43:18</sys_updated_on>
+        <sys_updated_on>2020-10-20 09:51:18</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=da4ea0abdb671810b7a7e5bd0b961974"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6017,7 +6017,7 @@
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="Look up Boot Volume">da4ea0abdb671810b7a7e5bd0b961974</model>
+        <model display_value="Look Up Boot Volume">da4ea0abdb671810b7a7e5bd0b961974</model>
         <model_id>da4ea0abdb671810b7a7e5bd0b961974</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_da4ea0abdb671810b7a7e5bd0b961974</name>
