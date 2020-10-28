@@ -30,9 +30,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a8c127ccdbfb5810b7a7e5bd0b9619bb</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-19 11:35:15</sys_updated_on>
+            <sys_updated_on>2020-10-28 10:16:34</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -49,10 +49,67 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>014f2944db08205020c17a2faa961968</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 10:16:34</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrqomtibiivqo7k5mv5rlqe7pziq5ujvv7w5u2ytdxkbe35mehmu2q</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CreateBootVolumeAction</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_32b960d8dbab501020c17a2faa961938</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 10:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07653f36db04601020c17a2faa9619aa</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-19 11:35:15</sys_updated_on>
-            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrqomtibiivqo7k5mv5rlqe7pziq5ujvv7w5u2ytdxkbe35mehmu2q</value>
+            <sys_updated_on>2020-10-28 10:16:34</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrur74edims7xaxw3cw3swmsgynq7ag7hl7tt2qlz6554h3mlvetfq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CreateBootVolAction</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_32b960d8dbab501020c17a2faa961938</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 10:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f653f36db04601020c17a2faa9619ab</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 10:16:34</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrpj4c3s3lr5w3kphdvk5df3gku2j57xfvna4byc5zh3y3a7lhko5a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>test2020</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_32b960d8dbab501020c17a2faa961938</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 10:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb653f36db04601020c17a2faa9619ac</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 10:16:34</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrkqyfk776syrrryk5vcsoz23f5t6wrcub4swmxd34jla5upi67xkq</value>
         </sys_choice>
     </sys_choice>
 </record_update>
