@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD01ac930c57fb581059e46f1601e1b42e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FD01ac930c57fb581059e46f1601e1b42e":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD01ac930c57fb581059e46f1601e1b42e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e5d76dfe-eff5-4f0f-81f2-9af04c551a67\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Documents\",\"mandatory\":\"false\",\"child_name\":\"document\",\"uiUniqueId\":\"6381dd3d-987e-4cb8-9be2-fcaba2fe38a8\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FD01ac930c57fb581059e46f1601e1b42e\",\"child_label\":\"Document\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"99c2efb9-455b-4fb5-8df3-548597e930a2\",\"sourceType\":\"step\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"0\",\"child_uiUniqueId\":\"6202903b-70b0-4fda-8573-81dc82db534d\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 09:09:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c1ac930cdbfb5810b7a7e5bd0b96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD01ac930c57fb581059e46f1601e1b42e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_c1ac930cdbfb5810b7a7e5bd0b96192e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 09:09:04</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

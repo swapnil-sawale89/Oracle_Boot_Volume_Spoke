@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDcc9e174cc0fb5810d638dc6bb03b9cad</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FDcc9e174cc0fb5810d638dc6bb03b9cad":{"data":[{"$128_data":{"compartmentId":"String","compartmentId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Compartment ID\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\"}"},"displayname":"String","displayname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Display Name\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\"}"}}}],"data.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Data\",\"mandatory\":\"true\",\"child_name\":\"data\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Data\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"1d16e64d-9e8e-4f65-a98d-611f6c575761\"}"}},"FlowDesigner:FDcc9e174cc0fb5810d638dc6bb03b9cad.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Documents\",\"mandatory\":\"true\",\"uiUniqueId\":\"99c2efb9-455b-4fb5-8df3-548597e930a2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDcc9e174cc0fb5810d638dc6bb03b9cad\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 09:17:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>809e174cdbfb5810b7a7e5bd0b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDcc9e174cc0fb5810d638dc6bb03b9cad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_809e174cdbfb5810b7a7e5bd0b9619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 09:17:27</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

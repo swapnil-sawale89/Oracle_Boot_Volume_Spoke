@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8e5123cc44fb5810b60b4bce160cbd43</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FD8e5123cc44fb5810b60b4bce160cbd43":{"data":[{"$143_data":{"bootvolumebackupid":"String","bootvolumebackupid.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Boot Volume Backup Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"5d2e4cb3-a5c9-45a1-be37-57dc8c9d9c44\"}"},"displayname":"String","displayname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Display Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"9ed00188-578c-4039-ada4-a0cc88436a0c\"}"}}}],"data.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Data\",\"mandatory\":\"false\",\"child_name\":\"data\",\"uiUniqueId\":\"7219eecf-2726-4229-802b-463885a7ef55\",\"uiTypeLabel\":\"$137:data\",\"child_label\":\"Data\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"d4e7efa7-1fd5-49fd-9f7e-593b2709159c\"}"}},"FlowDesigner:FD8e5123cc44fb5810b60b4bce160cbd43.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e5d76dfe-eff5-4f0f-81f2-9af04c551a67\",\"default_value\":\"\",\"label\":\"Documents\",\"mandatory\":\"false\",\"uiUniqueId\":\"6381dd3d-987e-4cb8-9be2-fcaba2fe38a8\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8e5123cc44fb5810b60b4bce160cbd43\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"99c2efb9-455b-4fb5-8df3-548597e930a2\",\"hint\":null,\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 09:29:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>425123ccdbfb5810b7a7e5bd0b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD8e5123cc44fb5810b60b4bce160cbd43</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_425123ccdbfb5810b7a7e5bd0b961944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 09:29:36</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

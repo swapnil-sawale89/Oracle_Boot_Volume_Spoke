@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="DELETE">
+        <name>Boot Volume Attachment</name>
+        <order>200</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-24 09:03:05</sys_created_on>
+        <sys_id>158ed44cdba3501020c17a2faa9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Boot Volume Attachment</sys_name>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_hub_category_158ed44cdba3501020c17a2faa9619fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 09:03:05</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="DELETE" query="documentkey=158ed44cdba3501020c17a2faa9619fa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</application>
+        <file_path/>
+        <instance_id>424fea06db2e1058e26fd7c8f4961941</instance_id>
+        <instance_name>swapnil</instance_name>
+        <name>sys_hub_category_158ed44cdba3501020c17a2faa9619fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category"><sys_hub_category action="INSERT_OR_UPDATE"><name>Boot Volume Attachment</name><order>200</order><sys_class_name>sys_hub_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-24 09:03:05</sys_created_on><sys_id>158ed44cdba3501020c17a2faa9619fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Boot Volume Attachment</sys_name><sys_package display_value="Oracle Boot Volume Spoke" source="x_snc_oracle_btvol">fc15aa1fdb57585020c17a2faa96194b</sys_package><sys_policy/><sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope><sys_update_name>sys_hub_category_158ed44cdba3501020c17a2faa9619fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-24 09:03:05</sys_updated_on></sys_hub_category><sys_translated_text action="delete_multiple" query="documentkey=158ed44cdba3501020c17a2faa9619fa"/></record_update>]]></payload>
+        <payload_hash>-2020717126</payload_hash>
+        <record_name>Boot Volume Attachment</record_name>
+        <reverted_from/>
+        <source>da59a6dfdb57585020c17a2faa961926</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-24 09:03:05</sys_created_on>
+        <sys_id>7e9ed44cdba3501020c17a2faa9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174bf5a14bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 09:03:05</sys_updated_on>
+        <type>Action Category</type>
+        <update_guid>b69ed44c71a350109d98c8cdde0621ec</update_guid>
+        <update_guid_history>b69ed44c71a350109d98c8cdde0621ec:-2020717126</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-20 09:47:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_category">sys_hub_category</sys_db_object>
+        <sys_id>4c41d2899ad248d0995436f568e1cca4</sys_id>
+        <sys_metadata>158ed44cdba3501020c17a2faa9619fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Boot Volume Attachment</sys_name>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_scope_delete display_value="">045d99052fa146f08017498520eb0e10</sys_scope_delete>
+        <sys_update_name>sys_hub_category_158ed44cdba3501020c17a2faa9619fa</sys_update_name>
+        <sys_update_version display_value="sys_hub_category_158ed44cdba3501020c17a2faa9619fa">7e9ed44cdba3501020c17a2faa9619ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-20 09:47:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

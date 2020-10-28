@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf003aeb67d4060105f79bd5d6c2df298</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FDf003aeb67d4060105f79bd5d6c2df298":{"$COCollectionField":[{"Boot_Volume_Backup_Detailed_List":{"FDf78c12dca14060509ee9aabc380f14ee":["Any"],"FDf78c12dca14060509ee9aabc380f14ee.$field_facets":{"SimpleMapFacet":"{\"sourceId\":\"e5d76dfe-eff5-4f0f-81f2-9af04c551a67\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Boot Volume Backup Detailed List\",\"mandatory\":\"false\",\"child_name\":\"Boot_Volume_Backup_Detailed_List\",\"uiUniqueId\":\"f8e8502d-aead-44d5-9b75-ccdfa4a015a3\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Boot Volume Backup Detailed List\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"e26791e4-42b3-407e-9655-6227ce416e58\",\"sourceType\":\"step\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"b5033390-c34d-4790-86df-08d09b91c71f\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e5d76dfe-eff5-4f0f-81f2-9af04c551a67\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Boot Volume Backup Detailed List\",\"mandatory\":\"false\",\"child_name\":\"Boot_Volume_Backup_Detailed_List\",\"uiUniqueId\":\"f8e8502d-aead-44d5-9b75-ccdfa4a015a3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDf003aeb67d4060105f79bd5d6c2df298\",\"child_label\":\"Boot Volume Backup Detailed List\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"e26791e4-42b3-407e-9655-6227ce416e58\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"3598a458-7661-4619-bff8-c892c652e8d5\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf003aeb67d4060105f79bd5d6c2df298.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e5d76dfe-eff5-4f0f-81f2-9af04c551a67\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Boot Volume Backup Detailed List\",\"mandatory\":\"false\",\"child_name\":\"Boot_Volume_Backup_Detailed_List\",\"uiUniqueId\":\"f8e8502d-aead-44d5-9b75-ccdfa4a015a3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDf003aeb67d4060105f79bd5d6c2df298\",\"child_label\":\"Boot Volume Backup Detailed List\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"e26791e4-42b3-407e-9655-6227ce416e58\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"3598a458-7661-4619-bff8-c892c652e8d5\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-28 04:16:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b403aeb6db40601020c17a2faa961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf003aeb67d4060105f79bd5d6c2df298</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_b403aeb6db40601020c17a2faa961998</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-28 04:16:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

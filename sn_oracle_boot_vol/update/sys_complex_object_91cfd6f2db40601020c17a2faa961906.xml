@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDddcfd6f245406010921cc14231990f05</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FDddcfd6f245406010921cc14231990f05":{"$COCollectionField":[{"Boot_Volume_Details":{"FDe0a6247136731c10880c2ef54c8bad28":["Any"],"FDe0a6247136731c10880c2ef54c8bad28.$field_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Boot Volume Detailed List\",\"mandatory\":\"true\",\"child_name\":\"Boot_Volume_Details\",\"uiUniqueId\":\"d8b5c577-2457-4229-9198-690d91a04f2e\",\"uiTypeLabel\":\"Any\",\"child_label\":\"Boot Volume Details\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"5\",\"max_length\":\"0\",\"child_uiUniqueId\":\"b17036c0-f77c-4b9b-9119-c3404ddb4ba6\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Boot Volume Detailed List\",\"mandatory\":\"true\",\"child_name\":\"Boot_Volume_Details\",\"uiUniqueId\":\"d8b5c577-2457-4229-9198-690d91a04f2e\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDddcfd6f245406010921cc14231990f05\",\"child_label\":\"Boot Volume Details\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4cfc72f8-bb8d-46e9-85ef-9d1c381e1881\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDddcfd6f245406010921cc14231990f05.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Boot Volume Detailed List\",\"mandatory\":\"true\",\"child_name\":\"Boot_Volume_Details\",\"uiUniqueId\":\"d8b5c577-2457-4229-9198-690d91a04f2e\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDddcfd6f245406010921cc14231990f05\",\"child_label\":\"Boot Volume Details\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4cfc72f8-bb8d-46e9-85ef-9d1c381e1881\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-28 04:02:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91cfd6f2db40601020c17a2faa961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDddcfd6f245406010921cc14231990f05</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_91cfd6f2db40601020c17a2faa961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-28 04:02:06</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

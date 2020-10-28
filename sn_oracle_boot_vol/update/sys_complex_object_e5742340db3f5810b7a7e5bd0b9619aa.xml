@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD25742340503f58106ebf169d9b4416aa</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FD25742340503f58106ebf169d9b4416aa":{"data":[{"$154_data":{"bootvolumebackupid":"String","bootvolumebackupid.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Boot Volume Backup Id\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"87b762f4-1078-44bc-ab4b-8d74d112e6fb\"}"},"displayname":"String","displayname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Display Name\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"1ecc5606-73fa-40d0-ba86-a44867d0fb9a\"}"}}}],"data.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Data\",\"mandatory\":\"true\",\"child_name\":\"data\",\"uiUniqueId\":\"aa5db6b5-e532-495d-b882-93d400cca022\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Data\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"c295b6df-ce35-49f9-8687-cf01cac2b485\"}"}},"FlowDesigner:FD25742340503f58106ebf169d9b4416aa.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e5d76dfe-eff5-4f0f-81f2-9af04c551a67\",\"default_value\":\"\",\"label\":\"Documents\",\"mandatory\":\"false\",\"uiUniqueId\":\"5a2557a8-4973-4193-88cd-617945675972\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FD25742340503f58106ebf169d9b4416aa\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"99c2efb9-455b-4fb5-8df3-548597e930a2\",\"sourceType\":\"step\",\"hint\":null,\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 09:43:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5742340db3f5810b7a7e5bd0b9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD25742340503f58106ebf169d9b4416aa</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_e5742340db3f5810b7a7e5bd0b9619aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 09:43:14</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
