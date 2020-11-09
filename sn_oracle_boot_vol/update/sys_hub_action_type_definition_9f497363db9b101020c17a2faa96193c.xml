@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>change_boot_volume_compartment</internal_name>
         <label_cache>[{"name":"{{action.boot_volume_id}}","label":"action➛Boot Volume ID","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.target_compartment_id}}","label":"action➛Target Compartment ID","type":"action","ref":""},{"name":"{{action.tenancy_id}}","label":"action➛Tenancy ID","type":"action","ref":""},{"name":"{{step[a6288a8c-ab88-4764-ab84-ad0e575b1889].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[a6288a8c-ab88-4764-ab84-ad0e575b1889].boot_volume_id}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[dcbc0c01-38cd-4d90-aca3-4da4efe05eae].status_code}}","label":"step➛Change Boot Volume Compartment➛Status Code","type":"step","ref":""},{"name":"{{step[dcbc0c01-38cd-4d90-aca3-4da4efe05eae].response_body}}","label":"step➛Change Boot Volume Compartment➛Response Body","type":"step","ref":""},{"name":"{{step[4c7ca6db-180c-4d8f-ae9a-f33d5d780f57].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[4c7ca6db-180c-4d8f-ae9a-f33d5d780f57].errormessage}}","label":"step➛Pre Processing➛Error Message","type":"step","ref":""},{"name":"{{step[4c7ca6db-180c-4d8f-ae9a-f33d5d780f57].status}}","label":"step➛Pre Processing➛Status","type":"step","ref":""},{"name":"{{step[a6288a8c-ab88-4764-ab84-ad0e575b1889].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>f7f62abadb40601020c17a2faa961907</latest_snapshot>
+        <latest_snapshot>511939bedb9c6810b7a7e5bd0b9619ce</latest_snapshot>
         <master_snapshot>5adc33e3db9b101020c17a2faa961912</master_snapshot>
         <name>Change Boot Volume Compartment</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9f497363db9b101020c17a2faa96193c</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Change Boot Volume Compartment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9f497363db9b101020c17a2faa96193c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:33:44</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:49</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -856,10 +856,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 11:54:36</sys_created_on>
         <sys_id>e14c7ba3db9b101020c17a2faa961901</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-15 11:09:20</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:35</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e14c7ba3db9b101020c17a2faa961901"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -884,9 +884,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 11:54:37</sys_created_on>
         <sys_id>f94c7ba3db9b101020c17a2faa961917</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-23 11:54:37</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:35</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
  try{
@@ -894,7 +894,7 @@
   obvUtil.validateInputVariables(inputs, outputs);
   obvUtil.validateMandatoryVariables(inputs,["boot_volume_id","compartment_id"]);
   var payload = {"compartmentId":inputs.compartment_id};
-   outputs.payload = JSON.stringify(payload	);
+  outputs.payload = JSON.stringify(payload	);
   outputs.boot_volume_id = inputs.boot_volume_id;
  
   }
@@ -1372,9 +1372,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:33:21</sys_created_on>
         <sys_id>cfe666badb40601020c17a2faa9619a8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:33:37</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:43</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cfe666badb40601020c17a2faa9619a8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1561,9 +1561,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:31:26</sys_created_on>
         <sys_id>83766e7adb40601020c17a2faa961960</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:33:37</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:43</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=83766e7adb40601020c17a2faa961960"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1669,9 +1669,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-15 11:09:20</sys_created_on>
         <sys_id>f4e441fedb339c1020c17a2faa9619ac</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:33:37</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:43</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f4e441fedb339c1020c17a2faa9619ac"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2660,10 +2660,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 11:54:36</sys_created_on>
         <sys_id>e14c7ba3db9b101020c17a2faa961901</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-15 11:09:20</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:35</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e14c7ba3db9b101020c17a2faa961901"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2688,9 +2688,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 11:54:37</sys_created_on>
         <sys_id>f94c7ba3db9b101020c17a2faa961917</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-23 11:54:37</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:35</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
  try{
@@ -2698,7 +2698,7 @@
   obvUtil.validateInputVariables(inputs, outputs);
   obvUtil.validateMandatoryVariables(inputs,["boot_volume_id","compartment_id"]);
   var payload = {"compartmentId":inputs.compartment_id};
-   outputs.payload = JSON.stringify(payload	);
+  outputs.payload = JSON.stringify(payload	);
   outputs.boot_volume_id = inputs.boot_volume_id;
  
   }
@@ -3294,17 +3294,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Change Boot Volume Compartment">9f497363db9b101020c17a2faa96193c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a7dc73e3db9b101020c17a2faa961942","name":"plan"}}</plan>
-        <snapshot>f7f62abadb40601020c17a2faa961907</snapshot>
+        <snapshot>511939bedb9c6810b7a7e5bd0b9619ce</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 11:57:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a7dc73e3db9b101020c17a2faa961942</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:33:47</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:53</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3386,10 +3386,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 11:57:07</sys_created_on>
         <sys_id>26dc33e3db9b101020c17a2faa961921</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-15 11:20:41</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:49</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26dc33e3db9b101020c17a2faa961921"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3400,9 +3400,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 11:57:08</sys_created_on>
         <sys_id>26dc33e3db9b101020c17a2faa96194c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-23 11:57:08</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:49</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
  try{
@@ -3410,7 +3410,7 @@
   obvUtil.validateInputVariables(inputs, outputs);
   obvUtil.validateMandatoryVariables(inputs,["boot_volume_id","compartment_id"]);
   var payload = {"compartmentId":inputs.compartment_id};
-   outputs.payload = JSON.stringify(payload	);
+  outputs.payload = JSON.stringify(payload	);
   outputs.boot_volume_id = inputs.boot_volume_id;
  
   }
@@ -4676,9 +4676,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:33:43</sys_created_on>
         <sys_id>24072abadb40601020c17a2faa9619e2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:33:43</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:49</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=24072abadb40601020c17a2faa9619e2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4784,9 +4784,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:31:41</sys_created_on>
         <sys_id>268622badb40601020c17a2faa961952</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:33:43</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:49</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=268622badb40601020c17a2faa961952"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4973,9 +4973,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-15 11:20:41</sys_created_on>
         <sys_id>8b778932db739c1020c17a2faa961993</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:33:43</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:49</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8b778932db739c1020c17a2faa961993"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5190,10 +5190,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 11:57:07</sys_created_on>
         <sys_id>26dc33e3db9b101020c17a2faa961921</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-15 11:20:41</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:49</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26dc33e3db9b101020c17a2faa961921"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5204,9 +5204,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 11:57:08</sys_created_on>
         <sys_id>26dc33e3db9b101020c17a2faa96194c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-23 11:57:08</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:28:49</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
  try{
@@ -5214,7 +5214,7 @@
   obvUtil.validateInputVariables(inputs, outputs);
   obvUtil.validateMandatoryVariables(inputs,["boot_volume_id","compartment_id"]);
   var payload = {"compartmentId":inputs.compartment_id};
-   outputs.payload = JSON.stringify(payload	);
+  outputs.payload = JSON.stringify(payload	);
   outputs.boot_volume_id = inputs.boot_volume_id;
  
   }

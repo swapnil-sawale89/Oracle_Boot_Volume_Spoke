@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>get_boot_volume_kms_key</internal_name>
         <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.boot_volume_id}}","label":"action➛Boot Volume ID","type":"action","ref":""},{"name":"{{action.tenancy_id}}","label":"action➛Tenancy ID","type":"action","ref":""},{"name":"{{step[7f7e406b-e8f3-430c-bf13-877673895d12].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[7f7e406b-e8f3-430c-bf13-877673895d12].boot_volume_id}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[de01c1ab-5b69-41f2-a260-cad45990a777].response_body}}","label":"step➛Get Boot  Volume KMS Key➛Response Body","type":"step","ref":""},{"name":"{{step[de01c1ab-5b69-41f2-a260-cad45990a777].status_code}}","label":"step➛Get Boot  Volume KMS Key➛Status Code","type":"step","ref":""},{"name":"{{step[62a1106b-c136-4620-a33c-8f12d6421687].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[62a1106b-c136-4620-a33c-8f12d6421687].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[62a1106b-c136-4620-a33c-8f12d6421687].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[62a1106b-c136-4620-a33c-8f12d6421687].errormessage}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[62a1106b-c136-4620-a33c-8f12d6421687].kms_key_id}}","label":"step➛Post Processing➛KMS Key ID","type":"step","ref":""},{"name":"{{step[62a1106b-c136-4620-a33c-8f12d6421687].kmskeyid}}","label":"step➛Post Processing➛KMS Key ID","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>5a77a1f2db9c6810b7a7e5bd0b961967</latest_snapshot>
+        <latest_snapshot>939bfdb2dbdc6810b7a7e5bd0b9619ce</latest_snapshot>
         <master_snapshot>7da40844db04205020c17a2faa961966</master_snapshot>
         <name>Get Boot Volume KMS Key</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>84f28404db04205020c17a2faa961988</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Get Boot Volume KMS Key</sys_name>
         <sys_overrides/>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_84f28404db04205020c17a2faa961988</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:54</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -658,10 +658,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:40:18</sys_created_on>
         <sys_id>d2740444db04205020c17a2faa9619bd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:41</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d2740444db04205020c17a2faa9619bd"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -672,9 +672,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:40:18</sys_created_on>
         <sys_id>5a740444db04205020c17a2faa9619ea</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:41</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:39</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "200"){
@@ -689,7 +689,7 @@
   }
 }else if(inputs.status == "404"){
   outputs.errormessage = "Not Found";
-        outputs.status = "404";
+  outputs.status = "404";
 }
  else {
        	var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
@@ -1260,9 +1260,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:40:17</sys_created_on>
         <sys_id>06740444db04205020c17a2faa961989</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:47</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:46</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=06740444db04205020c17a2faa961989"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1382,9 +1382,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 10:40:11</sys_created_on>
         <sys_id>38ea7bbadb04601020c17a2faa961941</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:47</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:46</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=38ea7bbadb04601020c17a2faa961941"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2313,10 +2313,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:40:18</sys_created_on>
         <sys_id>d2740444db04205020c17a2faa9619bd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:41</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d2740444db04205020c17a2faa9619bd"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2327,9 +2327,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:40:18</sys_created_on>
         <sys_id>5a740444db04205020c17a2faa9619ea</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:41</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:39</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "200"){
@@ -2344,7 +2344,7 @@
   }
 }else if(inputs.status == "404"){
   outputs.errormessage = "Not Found";
-        outputs.status = "404";
+  outputs.status = "404";
 }
  else {
        	var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
@@ -3449,17 +3449,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Boot Volume KMS Key">84f28404db04205020c17a2faa961988</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c3a44844db04205020c17a2faa96199d","name":"plan"}}</plan>
-        <snapshot>5a77a1f2db9c6810b7a7e5bd0b961967</snapshot>
+        <snapshot>939bfdb2dbdc6810b7a7e5bd0b9619ce</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:41:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3a44844db04205020c17a2faa96199d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:57</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:56</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3553,10 +3553,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:41:06</sys_created_on>
         <sys_id>8ea40844db04205020c17a2faa9619a4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:54</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8ea40844db04205020c17a2faa9619a4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3567,9 +3567,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:41:07</sys_created_on>
         <sys_id>06a40844db04205020c17a2faa9619d5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:54</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "200"){
@@ -3584,7 +3584,7 @@
   }
 }else if(inputs.status == "404"){
   outputs.errormessage = "Not Found";
-        outputs.status = "404";
+  outputs.status = "404";
 }
  else {
        	var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
@@ -4719,9 +4719,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 10:40:57</sys_created_on>
         <sys_id>370b7fbadb04601020c17a2faa961997</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:53</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:52</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=370b7fbadb04601020c17a2faa961997"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4827,9 +4827,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:41:05</sys_created_on>
         <sys_id>7da40844db04205020c17a2faa961974</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:53</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:52</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7da40844db04205020c17a2faa961974"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5208,10 +5208,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:41:06</sys_created_on>
         <sys_id>8ea40844db04205020c17a2faa9619a4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:54</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8ea40844db04205020c17a2faa9619a4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5222,9 +5222,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 03:41:07</sys_created_on>
         <sys_id>06a40844db04205020c17a2faa9619d5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 10:11:54</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:39:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "200"){
@@ -5239,7 +5239,7 @@
   }
 }else if(inputs.status == "404"){
   outputs.errormessage = "Not Found";
-        outputs.status = "404";
+  outputs.status = "404";
 }
  else {
        	var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);

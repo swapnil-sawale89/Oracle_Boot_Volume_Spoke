@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>attach_boot_volume</internal_name>
         <label_cache>[{"name":"{{action.boot_volume_id}}","label":"action➛Boot Volume ID","type":"action","ref":""},{"name":"{{action.display_name}}","label":"action➛Display Name","type":"action","ref":""},{"name":"{{action.instance_id}}","label":"action➛Instance ID","type":"action","ref":""},{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.volume_group_id}}","label":"action➛Volume Group ID","type":"action","ref":""},{"name":"{{action.tenancy_id}}","label":"action➛Tenancy ID","type":"action","ref":""},{"name":"{{step[d0355ec7-47b7-451e-b058-820e9c7ec633].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[d0355ec7-47b7-451e-b058-820e9c7ec633].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[04b64f0e-5a68-42b3-8a22-24541780b530].status_code}}","label":"step➛Attach Boot Volume➛Status Code","type":"step","ref":""},{"name":"{{step[04b64f0e-5a68-42b3-8a22-24541780b530].response_body}}","label":"step➛Attach Boot Volume➛Response Body","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].id}}","label":"step➛Post Processing➛ID","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].availability_domain}}","label":"step➛Post Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].availabilitydomain}}","label":"step➛Post Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].compartment_id}}","label":"step➛Post Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].compartmentid}}","label":"step➛Post Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].display_name}}","label":"step➛Post Processing➛Display Name","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].displayname}}","label":"step➛Post Processing➛Display Name","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].lifecycle_state}}","label":"step➛Post Processing➛Lifecycle State","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].lifecyclestate}}","label":"step➛Post Processing➛Lifecycle State","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].time_created}}","label":"step➛Post Processing➛Time Created","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].timecreated}}","label":"step➛Post Processing➛Time Created","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].instance_id}}","label":"step➛Post Processing➛Instance ID","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].instanceid}}","label":"step➛Post Processing➛Instance ID","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].is_pv_encryption_in_transit_enabled}}","label":"step➛Post Processing➛Is PV Encryption In Transit Enabled","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].ispvencryptionintransitenabled}}","label":"step➛Post Processing➛Is PV Encryption In Transit Enabled","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[c4eade79-08e1-4d30-be1b-df6411cc1209].errormessage}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>f5f46a3adb40601020c17a2faa9619b2</latest_snapshot>
+        <latest_snapshot>c2c8fd7edb9c6810b7a7e5bd0b961960</latest_snapshot>
         <master_snapshot>a34e504cdba3501020c17a2faa9619b8</master_snapshot>
         <name>Attach Boot Volume</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ed85c48dba3501020c17a2faa9619cf</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>Attach Boot Volume</sys_name>
         <sys_overrides/>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_0ed85c48dba3501020c17a2faa9619cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:24:53</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:27:33</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1923,9 +1923,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-06 08:43:44</sys_created_on>
         <sys_id>dc4d4233db635810b7a7e5bd0b96196a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:24:43</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:27:23</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dc4d4233db635810b7a7e5bd0b96196a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2288,9 +2288,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:18:52</sys_created_on>
         <sys_id>329366f6db40601020c17a2faa9619c8</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:24:43</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:27:23</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=329366f6db40601020c17a2faa9619c8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5252,17 +5252,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Attach Boot Volume">0ed85c48dba3501020c17a2faa9619cf</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5a5ed04cdba3501020c17a2faa9619dc","name":"plan"}}</plan>
-        <snapshot>f5f46a3adb40601020c17a2faa9619b2</snapshot>
+        <snapshot>c2c8fd7edb9c6810b7a7e5bd0b961960</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 09:01:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5a5ed04cdba3501020c17a2faa9619dc</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:24:57</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:27:36</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -7266,9 +7266,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 04:19:57</sys_created_on>
         <sys_id>538d040cdb04205020c17a2faa961942</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:24:52</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:27:32</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=538d040cdb04205020c17a2faa961942"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7469,9 +7469,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:20:17</sys_created_on>
         <sys_id>e3e32ef6db40601020c17a2faa9619a6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:24:52</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:27:31</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e3e32ef6db40601020c17a2faa9619a6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
