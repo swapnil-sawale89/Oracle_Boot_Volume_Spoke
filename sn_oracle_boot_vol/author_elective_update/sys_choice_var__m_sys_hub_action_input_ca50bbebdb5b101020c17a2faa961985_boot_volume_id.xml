@@ -35,5 +35,119 @@
             <sys_updated_on>2020-10-16 04:57:02</sys_updated_on>
             <value/>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TestedUpdateAction_12</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ca50bbebdb5b101020c17a2faa961985</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-09 10:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7f96576db9c6810b7a7e5bd0b96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-09 10:22:49</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrqomtibiivqo7k5mv5rlqe7pziq5ujvv7w5u2ytdxkbe35mehmu2q</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CreateBootVolumeAction</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ca50bbebdb5b101020c17a2faa961985</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-09 10:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dff96576db9c6810b7a7e5bd0b96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-09 10:22:49</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrur74edims7xaxw3cw3swmsgynq7ag7hl7tt2qlz6554h3mlvetfq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CreateBootVolAction</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ca50bbebdb5b101020c17a2faa961985</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-09 10:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ff96576db9c6810b7a7e5bd0b96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-09 10:22:49</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrpj4c3s3lr5w3kphdvk5df3gku2j57xfvna4byc5zh3y3a7lhko5a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>test2020</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ca50bbebdb5b101020c17a2faa961985</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-09 10:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ff96576db9c6810b7a7e5bd0b96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-09 10:22:49</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrkqyfk776syrrryk5vcsoz23f5t6wrcub4swmxd34jla5upi67xkq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TestCreateBootVol</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ca50bbebdb5b101020c17a2faa961985</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-09 10:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ff96576db9c6810b7a7e5bd0b96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-09 10:22:49</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljrce4tmy6vidp4n3bonwpkagelvbnjlutnbqfx543hd5i6hyxhfoiq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>boot_volume_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BootVolumeTest1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ca50bbebdb5b101020c17a2faa961985</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-09 10:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbf96576db9c6810b7a7e5bd0b96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-09 10:22:49</sys_updated_on>
+            <value>ocid1.bootvolume.oc1.ap-mumbai-1.abrg6ljryltsenw2brzopkxwezyepoxhzwrsxvus4tq664ix6aqfiu4bxtzq</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
