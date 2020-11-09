@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>delete_boot_volume_backup</internal_name>
         <label_cache>[{"name":"{{action.bootvolumebackupid}}","label":"action➛bootVolumeBackupId","type":"action","ref":""},{"name":"{{action.boot_volume_backup_id}}","label":"action➛Boot Volume Backup ID","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.tenancy_id}}","label":"action➛Tenancy ID","type":"action","ref":""},{"name":"{{step[974c0669-3d65-43b8-9c78-4c2d8ddafa40].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[974c0669-3d65-43b8-9c78-4c2d8ddafa40].boot_volume_backup_id}}","label":"step➛Pre Processing➛Boot Volume Backup ID","type":"step","ref":""},{"name":"{{step[990e5364-16ee-4973-a816-6d312a405986].response_body}}","label":"step➛Delete Boot Volume Backup➛Response Body","type":"step","ref":""},{"name":"{{step[990e5364-16ee-4973-a816-6d312a405986].status_code}}","label":"step➛Delete Boot Volume Backup➛Status Code","type":"step","ref":""},{"name":"{{step[7a7cf9bf-d55c-4813-8cea-0bffbea5735e].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[7a7cf9bf-d55c-4813-8cea-0bffbea5735e].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[7a7cf9bf-d55c-4813-8cea-0bffbea5735e].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[7a7cf9bf-d55c-4813-8cea-0bffbea5735e].errormessage}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>6076b3b6db04601020c17a2faa9619d9</latest_snapshot>
+        <latest_snapshot>c12a7932dbdc6810b7a7e5bd0b961972</latest_snapshot>
         <master_snapshot>20c06114db339810b7a7e5bd0b961973</master_snapshot>
         <name>Delete Boot Volume Backup</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05de5190db339810b7a7e5bd0b961973</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Delete Boot Volume Backup</sys_name>
         <sys_overrides/>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_05de5190db339810b7a7e5bd0b961973</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 10:20:52</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:27</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -82,10 +82,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-07 18:44:21</sys_created_on>
         <sys_id>0850e9d0db339810b7a7e5bd0b961999</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-07 18:46:03</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:14</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0850e9d0db339810b7a7e5bd0b961999"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -96,16 +96,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-07 18:44:22</sys_created_on>
         <sys_id>1050e9d0db339810b7a7e5bd0b9619b3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-07 18:46:03</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:14</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "204"){
     	outputs.status = "Success";
     }
  else {
-       var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
+       	var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
    		outputs.errormessage = errorData[0];
         outputs.status = errorData[1];
     } 
@@ -1263,9 +1263,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 10:20:36</sys_created_on>
         <sys_id>316633b6db04601020c17a2faa9619d6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 10:20:44</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:21</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=316633b6db04601020c17a2faa9619d6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1371,9 +1371,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 04:59:50</sys_created_on>
         <sys_id>5ba69480db44205020c17a2faa9619aa</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 10:20:44</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:21</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5ba69480db44205020c17a2faa9619aa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1588,10 +1588,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-07 18:44:21</sys_created_on>
         <sys_id>0850e9d0db339810b7a7e5bd0b961999</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-07 18:46:03</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:14</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0850e9d0db339810b7a7e5bd0b961999"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1602,16 +1602,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-07 18:44:22</sys_created_on>
         <sys_id>1050e9d0db339810b7a7e5bd0b9619b3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-07 18:46:03</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:14</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "204"){
     	outputs.status = "Success";
     }
  else {
-       var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
+       	var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
    		outputs.errormessage = errorData[0];
         outputs.status = errorData[1];
     } 
@@ -2762,17 +2762,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Delete Boot Volume Backup">05de5190db339810b7a7e5bd0b961973</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"25c0a114db339810b7a7e5bd0b961977","name":"plan"}}</plan>
-        <snapshot>6076b3b6db04601020c17a2faa9619d9</snapshot>
+        <snapshot>c12a7932dbdc6810b7a7e5bd0b961972</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-07 18:46:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>25c0a114db339810b7a7e5bd0b961977</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 10:20:55</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:30</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2854,10 +2854,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-07 18:46:18</sys_created_on>
         <sys_id>a8c06114db339810b7a7e5bd0b9619bf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-07 18:46:18</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:27</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a8c06114db339810b7a7e5bd0b9619bf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2868,16 +2868,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-07 18:46:18</sys_created_on>
         <sys_id>3cc06114db339810b7a7e5bd0b9619db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-07 18:46:18</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:27</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "204"){
     	outputs.status = "Success";
     }
  else {
-       var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
+       	var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
    		outputs.errormessage = errorData[0];
         outputs.status = errorData[1];
     } 
@@ -3954,9 +3954,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 05:00:04</sys_created_on>
         <sys_id>32b65880db44205020c17a2faa96194b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 10:20:51</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:26</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=32b65880db44205020c17a2faa96194b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4157,9 +4157,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 10:20:51</sys_created_on>
         <sys_id>d976f3b6db04601020c17a2faa9619aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 10:20:51</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:26</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d976f3b6db04601020c17a2faa9619aa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4360,10 +4360,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-07 18:46:18</sys_created_on>
         <sys_id>a8c06114db339810b7a7e5bd0b9619bf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-07 18:46:18</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:27</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a8c06114db339810b7a7e5bd0b9619bf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4374,16 +4374,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-07 18:46:18</sys_created_on>
         <sys_id>3cc06114db339810b7a7e5bd0b9619db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-07 18:46:18</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:33:27</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "204"){
     	outputs.status = "Success";
     }
  else {
-       var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
+       	var errorData = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
    		outputs.errormessage = errorData[0];
         outputs.status = errorData[1];
     } 

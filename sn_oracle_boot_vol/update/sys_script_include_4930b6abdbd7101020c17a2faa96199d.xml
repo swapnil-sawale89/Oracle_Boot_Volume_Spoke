@@ -2,7 +2,7 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>sn_oracle_boot_vol.OracleBootVolumeUtils</api_name>
+        <api_name>sn_oci_bootvol_spk.OracleBootVolumeUtils</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
@@ -26,7 +26,7 @@ OracleBootVolumeUtils.prototype = {
             if (!obj[key])
                 throw new Error("Error while executing, mandatory information isn't passed in " + key);
         });
-    },
+    }, 
 
     createTagsPayload: function(inputTags) {
         var tags = {};
@@ -70,13 +70,13 @@ OracleBootVolumeUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-23 06:24:53</sys_created_on>
         <sys_id>4930b6abdbd7101020c17a2faa96199d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>OracleBootVolumeUtils</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_script_include_4930b6abdbd7101020c17a2faa96199d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 10:33:20</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:25:44</sys_updated_on>
     </sys_script_include>
 </record_update>

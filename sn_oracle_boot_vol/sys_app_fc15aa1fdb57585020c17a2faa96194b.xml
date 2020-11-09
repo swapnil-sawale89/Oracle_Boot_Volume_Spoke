@@ -14,7 +14,7 @@
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
-        <scope>sn_oracle_boot_vol</scope>
+        <scope>sn_oci_bootvol_spk</scope>
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>sn_oracle_boot_vol</source>
@@ -25,9 +25,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-22 10:55:09</sys_created_on>
         <sys_id>fc15aa1fdb57585020c17a2faa96194b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-14 07:54:39</sys_updated_on>
+        <sys_updated_on>2020-11-09 11:24:40</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
