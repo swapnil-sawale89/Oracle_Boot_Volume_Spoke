@@ -12,7 +12,7 @@
             <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
             <sys_policy/>
             <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_281d3fa3db9b101020c17a2faa96192c_compartment_id</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-10-28 10:42:53</sys_updated_on>
         </sys_choice_set>
