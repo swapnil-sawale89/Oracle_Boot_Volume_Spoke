@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8c965fe9536cec10822321d557111c4e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FD8c965fe9536cec10822321d557111c4e":{"$COCollectionField":[{"Boot_Volume_Detailed_List":{"compartmentId":"String","compartmentId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"compartmentId\",\"mandatory\":\"true\",\"order\":\"6\",\"max_length\":\"0\"}"},"availabilityDomain":"String","availabilityDomain.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"availabilityDomain\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Boot Volume Detailed List\",\"mandatory\":\"true\",\"child_name\":\"Boot_Volume_Detailed_List\",\"uiUniqueId\":\"a377ff95-72d1-4cb7-ae0f-0852fe47db71\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8c965fe9536cec10822321d557111c4e\",\"child_label\":\"Boot Volume Detailed List\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"5110950c-b146-4840-9ed1-170afee098ac\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8c965fe9536cec10822321d557111c4e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Boot Volume Detailed List\",\"mandatory\":\"true\",\"child_name\":\"Boot_Volume_Detailed_List\",\"uiUniqueId\":\"a377ff95-72d1-4cb7-ae0f-0852fe47db71\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8c965fe9536cec10822321d557111c4e\",\"child_label\":\"Boot Volume Detailed List\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"5110950c-b146-4840-9ed1-170afee098ac\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-18 07:20:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40965fe9db6cec10b7a7e5bd0b96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD8c965fe9536cec10822321d557111c4e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_40965fe9db6cec10b7a7e5bd0b96194f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-18 07:20:29</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

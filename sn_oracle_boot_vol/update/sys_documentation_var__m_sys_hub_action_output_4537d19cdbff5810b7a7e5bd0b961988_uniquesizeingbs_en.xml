@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="uniquesizeingbs" label="Unique Size in GBs" language="en" table="var__m_sys_hub_action_output_4537d19cdbff5810b7a7e5bd0b961988">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>uniquesizeingbs</element>
+            <help/>
+            <hint/>
+            <label>Unique Size in GBs</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4537d19cdbff5810b7a7e5bd0b961988</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-07 18:04:37</sys_created_on>
+            <sys_id>c637559cdbff5810b7a7e5bd0b96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Unique Size in GBs</sys_name>
+            <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4537d19cdbff5810b7a7e5bd0b961988_uniquesizeingbs_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-07 18:04:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

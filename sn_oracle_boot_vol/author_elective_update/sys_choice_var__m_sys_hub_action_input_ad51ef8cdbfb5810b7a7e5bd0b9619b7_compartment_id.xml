@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 04:08:57</sys_created_on>
-            <sys_id>e5512e36db40601020c17a2faa9619f9</sys_id>
+            <sys_id>d0257ba1dba02050b7a7e5bd0b96190b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -306,7 +306,7 @@
             <element>compartment_id</element>
             <hint/>
             <inactive>false</inactive>
-            <label>updatedcompartmentgfmre</label>
+            <label>updatedcompartmentrncln</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_ad51ef8cdbfb5810b7a7e5bd0b9619b7</name>
             <sequence>15</sequence>
@@ -315,9 +315,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>50b225fedb5c6810b7a7e5bd0b9619a3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-09 09:50:56</sys_updated_on>
+            <sys_updated_on>2020-11-18 10:10:03</sys_updated_on>
             <value>ocid1.compartment.oc1..aaaaaaaaywibrz34p5aqbbhqakni5t6ijdqqko2oeeaiqq5x5mceri4z2xfq</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

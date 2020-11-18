@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD66a08f6d512cec10ec3b21df4bd81182</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FD66a08f6d512cec10ec3b21df4bd81182":{"$COCollectionField":[{"boot_volume_backups_list":{"Boot_Volume_Backup":"Any","Boot_Volume_Backup.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Boot Volume Backup\",\"mandatory\":\"true\",\"order\":\"8\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Boot Volume Backups List\",\"mandatory\":\"true\",\"child_name\":\"boot_volume_backups_list\",\"uiUniqueId\":\"21b1f90c-f7bd-4209-9df8-c6566e36f234\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD66a08f6d512cec10ec3b21df4bd81182\",\"child_label\":\"Boot Volume Backups List\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"c4c03cdd-70e4-4fc9-b2c8-a0764ba51df0\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD66a08f6d512cec10ec3b21df4bd81182.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Boot Volume Backups List\",\"mandatory\":\"true\",\"child_name\":\"boot_volume_backups_list\",\"uiUniqueId\":\"21b1f90c-f7bd-4209-9df8-c6566e36f234\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD66a08f6d512cec10ec3b21df4bd81182\",\"child_label\":\"Boot Volume Backups List\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"c4c03cdd-70e4-4fc9-b2c8-a0764ba51df0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-18 05:44:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2aa08f6ddb2cec10b7a7e5bd0b961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD66a08f6d512cec10ec3b21df4bd81182</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_2aa08f6ddb2cec10b7a7e5bd0b961982</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-18 05:44:48</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

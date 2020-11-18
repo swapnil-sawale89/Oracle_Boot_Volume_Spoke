@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD0fdfc7e5886cec10cde2f869fe8972ff</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
+        <serialized_content>{"FlowDesigner:FD0fdfc7e5886cec10cde2f869fe8972ff":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0fdfc7e5886cec10cde2f869fe8972ff.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Boot Volumes List\",\"mandatory\":\"true\",\"child_name\":\"Boot_Volumes_List\",\"uiUniqueId\":\"115085c9-36b2-4802-99a4-6ae8321e9d93\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0fdfc7e5886cec10cde2f869fe8972ff\",\"child_label\":\"Boot Volumes List\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"66a65776-81b6-4380-aa31-cd4b9099d1a1\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-18 06:51:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cfdfc7e5db6cec10b7a7e5bd0b9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD0fdfc7e5886cec10cde2f869fe8972ff</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name>sys_complex_object_cfdfc7e5db6cec10b7a7e5bd0b9619ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-18 06:51:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

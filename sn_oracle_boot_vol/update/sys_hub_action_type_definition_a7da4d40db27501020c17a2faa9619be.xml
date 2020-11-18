@@ -12,8 +12,8 @@
         <description>&lt;p&gt;Lists the boot volume attachments in the specified compartment.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;Tenancy ID&lt;/b&gt; -OCID of the tenancy.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Compartment ID&lt;/b&gt; -OCID of the compartment&lt;/li&gt; &lt;p&gt;&lt;/p&gt; &lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure, Status is set to “Error”.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error, along with code. Populated only when an error occurs.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Boot Volume Attachment List&lt;/b&gt; -Lists of boot volume attachments with details in the specified compartment.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Output&lt;/b&gt; - Lists of boot volume attachments in the specified compartment.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bad Request.&lt;/li&gt; &lt;li&gt;Internal Server Error.&lt;/li&gt; &lt;li&gt;Not Found.&lt;/li&gt; &lt;li&gt;Unauthorized.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;To use this action, the corresponding Oracle connection and credential must be created and associated with the Oracle Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt; &lt;/p&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt; &lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;. &lt;/p&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>lookup_boot_volume_attachments</internal_name>
-        <label_cache>[{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id_}}","label":"action➛Compartment Id*","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.boot_volume_id}}","label":"action➛Boot Volume Id","type":"action","ref":""},{"name":"{{action.tenancy_id}}","label":"action➛Tenancy ID","type":"action","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartment_id}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartmentid}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].availability_domain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].availabilitydomain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].boot_volume_id}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].bootvolumeid}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].status_code}}","label":"step➛Look up Boot Volume Attachments➛Status Code","type":"step","ref":""},{"name":"{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].response_body}}","label":"step➛Look up Boot Volume Attachments➛Response Body","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].document}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].errormessage}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].documents}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_list}}","label":"step➛Post Processing➛Boot Volume Detailed List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].Boot_Volume_Detailed_Attachment_List.Boot_Volume_Details}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List➛Boot Volume Details","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].Boot_Volume_Detailed_Attachment_List}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List➛Boot Volume Detailed Attachment","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>427cbdf2dbdc6810b7a7e5bd0b961976</latest_snapshot>
+        <label_cache>[{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id_}}","label":"action➛Compartment Id*","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.boot_volume_id}}","label":"action➛Boot Volume Id","type":"action","ref":""},{"name":"{{action.tenancy_id}}","label":"action➛Tenancy ID","type":"action","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartment_id}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartmentid}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].availability_domain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].availabilitydomain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].boot_volume_id}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].bootvolumeid}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].status_code}}","label":"step➛Look up Boot Volume Attachments➛Status Code","type":"step","ref":""},{"name":"{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].response_body}}","label":"step➛Look up Boot Volume Attachments➛Response Body","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].document}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].errormessage}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].documents}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_list}}","label":"step➛Post Processing➛Boot Volume Detailed List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].Boot_Volume_Detailed_Attachment_List.Boot_Volume_Details}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List➛Boot Volume Details","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].Boot_Volume_Detailed_Attachment_List}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List➛Boot Volume Detailed Attachment","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.FD09f63084bc8420507087588b136dd23e}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child1}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child1","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.availabilityDomain}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛availabilityDomain","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child2}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child2","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.bootVolumeId}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛bootVolumeId","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child3}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child3","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.compartmentId}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛compartmentId","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child4}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child4","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.displayName}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛displayName","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child5}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child5","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.id}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛id","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child6}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child6","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.instanceId}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛instanceId","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child7}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child7","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.lifecycleState}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛lifecycleState","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child8}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child8","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.timeCreated}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛timeCreated","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child9}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child9","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.attachmentType}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛attachmentType","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child10}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child10","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.isPvEncryptionInTransitEnabled}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛isPvEncryptionInTransitEnabled","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>2c2c332ddba02050b7a7e5bd0b961902</latest_snapshot>
         <master_snapshot>c5ae8904db27501020c17a2faa9619de</master_snapshot>
         <name>Look up Boot Volume Attachments</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a7da4d40db27501020c17a2faa9619be</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_name>Look up Boot Volume Attachments</sys_name>
         <sys_overrides/>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a7da4d40db27501020c17a2faa9619be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:37</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -758,7 +758,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Compartment ID</label>
+        <label>compartmentid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">459e0904db27501020c17a2faa961956</model>
@@ -784,14 +784,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:41</sys_created_on>
         <sys_id>1d9e0904db27501020c17a2faa961967</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:41</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -819,10 +819,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:42</sys_created_on>
         <sys_id>a19e0904db27501020c17a2faa9619b2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:24</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:37</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a19e0904db27501020c17a2faa9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -847,9 +847,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:43</sys_created_on>
         <sys_id>e59e0904db27501020c17a2faa9619d1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:24</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:37</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   var data = new Array();
@@ -859,7 +859,7 @@
     if (inputs.status == '200') {
         try {
             var responseData = JSON.parse(inputs.response);
-          	outputs.boot_volume_detailed_attachment_list = JSON.stringify(responseData);
+          	outputs.boot_volume_detailed_attachment_list = responseData;
             for (var i = 0; i &lt; responseData.length; i++) {
                 var document = new Object();
                 document.label = responseData[i].displayName;
@@ -1103,7 +1103,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=cf8c61ce-7960-4251-9305-cb27a1324c5c,co_type_name=FD09f63084bc8420507087588b136dd23e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030</attributes>
+        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=08833bab-ca67-4731-93fb-71290513c482,co_type_name=FD09f63084bc8420507087588b136dd23e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1135,7 +1135,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Boot Volume Detailed Attachment List</label>
+        <label>boot_volume_detailed_attachment_list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
@@ -1161,14 +1161,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 07:20:51</sys_created_on>
         <sys_id>01f63084db84205020c17a2faa961946</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:31</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1216,7 +1216,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Documents</label>
+        <label>documents</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
@@ -1242,14 +1242,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 13:20:31</sys_created_on>
         <sys_id>7189d188db27501020c17a2faa9619b2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:31</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1297,7 +1297,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
@@ -1323,14 +1323,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:43</sys_created_on>
         <sys_id>a19e0904db27501020c17a2faa9619c9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:31</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1378,7 +1378,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>errormessage</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
@@ -1404,14 +1404,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:43</sys_created_on>
         <sys_id>e99e0904db27501020c17a2faa9619c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:31</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1438,7 +1438,7 @@
 })(current);]]></calculation>
         <choice>1</choice>
         <choice_field/>
-        <choice_table/>
+        <choice_table>ocid1.tenancy.oc1..aaaaaaaatk6fnxw324trjilvekrte2le4xac5paw3f26spozkgnat435tpwq</choice_table>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -1486,14 +1486,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:04:12</sys_created_on>
         <sys_id>0c402ef2db40601020c17a2faa9619fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:04:12</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1513,9 +1513,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:04:12</sys_created_on>
         <sys_id>88406ef2db40601020c17a2faa961904</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:30</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:32</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=88406ef2db40601020c17a2faa961904"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1618,7 +1618,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=db0aa8e5-1111-417e-a40a-c369cde127a9,co_type_name=FD0df63084ea842050d2aa67b3ce2ac951,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=5f729f29-057f-4b09-b947-2f0d1107ab4c,sourceType=step,sourceUiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=a278e400-b20f-4c1c-bf56-46826ccd8461</attributes>
+        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=1ae3c41f-c1b9-4eea-9d32-a182f9e2651d,co_type_name=FD0df63084ea842050d2aa67b3ce2ac951,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=5f729f29-057f-4b09-b947-2f0d1107ab4c,sourceType=step,sourceUiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=a278e400-b20f-4c1c-bf56-46826ccd8461</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1678,14 +1678,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 07:20:52</sys_created_on>
         <sys_id>01f63084db84205020c17a2faa96196a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:31</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2603,7 +2603,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Compartment ID</label>
+        <label>compartmentid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">459e0904db27501020c17a2faa961956</model>
@@ -2629,14 +2629,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:41</sys_created_on>
         <sys_id>1d9e0904db27501020c17a2faa961967</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:41</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2664,10 +2664,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:42</sys_created_on>
         <sys_id>a19e0904db27501020c17a2faa9619b2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:24</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:37</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a19e0904db27501020c17a2faa9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2692,9 +2692,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:43</sys_created_on>
         <sys_id>e59e0904db27501020c17a2faa9619d1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:24</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:37</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   var data = new Array();
@@ -2704,7 +2704,7 @@
     if (inputs.status == '200') {
         try {
             var responseData = JSON.parse(inputs.response);
-          	outputs.boot_volume_detailed_attachment_list = JSON.stringify(responseData);
+          	outputs.boot_volume_detailed_attachment_list = responseData;
             for (var i = 0; i &lt; responseData.length; i++) {
                 var document = new Object();
                 document.label = responseData[i].displayName;
@@ -2948,7 +2948,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=cf8c61ce-7960-4251-9305-cb27a1324c5c,co_type_name=FD09f63084bc8420507087588b136dd23e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030</attributes>
+        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=08833bab-ca67-4731-93fb-71290513c482,co_type_name=FD09f63084bc8420507087588b136dd23e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2980,7 +2980,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Boot Volume Detailed Attachment List</label>
+        <label>boot_volume_detailed_attachment_list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
@@ -3006,14 +3006,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 07:20:51</sys_created_on>
         <sys_id>01f63084db84205020c17a2faa961946</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:31</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3061,7 +3061,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Documents</label>
+        <label>documents</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
@@ -3087,14 +3087,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 13:20:31</sys_created_on>
         <sys_id>7189d188db27501020c17a2faa9619b2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:31</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3142,7 +3142,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
@@ -3168,14 +3168,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:43</sys_created_on>
         <sys_id>a19e0904db27501020c17a2faa9619c9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:31</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3223,7 +3223,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>errormessage</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
@@ -3249,14 +3249,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:43</sys_created_on>
         <sys_id>e99e0904db27501020c17a2faa9619c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:31</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:03:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3315,8 +3315,27 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be^sys_idNOT IN80406ef2db40601020c17a2faa961900"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be^sys_idNOT INbceb7be9dba02050b7a7e5bd0b961969,80406ef2db40601020c17a2faa961900,45eb7be9dba02050b7a7e5bd0b96196b,05eb7be9dba02050b7a7e5bd0b96196c,c1eb7be9dba02050b7a7e5bd0b96196d,01ebfbe9dba02050b7a7e5bd0b961915,cdebfbe9dba02050b7a7e5bd0b961915,8debfbe9dba02050b7a7e5bd0b961916,4debfbe9dba02050b7a7e5bd0b961917,0debfbe9dba02050b7a7e5bd0b961918,c9ebfbe9dba02050b7a7e5bd0b961919,89ebfbe9dba02050b7a7e5bd0b96191a,49ebfbe9dba02050b7a7e5bd0b96191b,09ebfbe9dba02050b7a7e5bd0b96191c,c5ebfbe9dba02050b7a7e5bd0b96191d,85ebfbe9dba02050b7a7e5bd0b96191e,45ebfbe9dba02050b7a7e5bd0b96191f,05ebfbe9dba02050b7a7e5bd0b961920"/>
     <sys_choice field="compartment_id" table="var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>childCompart</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bceb7be9dba02050b7a7e5bd0b961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:33</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaamzvswdu4fhz7wq7hpbarwcfnnbhxs7czf73ta3wuvdx5ow6varaq</value>
+        </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>compartment_id</element>
@@ -3325,16 +3344,320 @@
             <label>-- None --</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
-            <sequence>0</sequence>
+            <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 04:04:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>80406ef2db40601020c17a2faa961900</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-28 04:05:26</sys_updated_on>
+            <sys_updated_on>2020-11-18 10:03:33</sys_updated_on>
             <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DemoCompart</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45eb7be9dba02050b7a7e5bd0b96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaatofwymyfle3yvscz6hppsxeixkzaajbbh23vrmac7tiq6bgnfjxa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>firstcchild</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05eb7be9dba02050b7a7e5bd0b96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaapqe3tgbh7squq7tsiu6qnhqqjaxblxwuewgmrhs3pm3ogeox77fq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>firstChild2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1eb7be9dba02050b7a7e5bd0b96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaqnwgtlvd7eryorvsdv5adcboz7lpnjal6grsmtdy3urq3nhqvqsa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>firstChild3</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01ebfbe9dba02050b7a7e5bd0b961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaespz3pd6niecpfb66cffamglsajmb4hbqyrc5wczp7e5awva4vpq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ManagedCompartmentForPaaS</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdebfbe9dba02050b7a7e5bd0b961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaamp7hb6zt23i6gmubnwh5unv4d3dubzc5qmvulwru2mfv2yaowtka</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OEBSCompartment</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8debfbe9dba02050b7a7e5bd0b961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaa4nkls3xk62jkgrejhyicih3lxvvwn4mxkk2ciowz5pe6fnx35w4a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OraclePeoplesoft</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4debfbe9dba02050b7a7e5bd0b961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaeyed3awlhalpojmsy654xd3aorpgik6jbnexffanxgzthhrsrhgq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Test</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0debfbe9dba02050b7a7e5bd0b961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaayav6ugvkkobbdodd4pafvuuwwjpt2dn2tf65vowzpk6nzmtmuhwa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Test</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9ebfbe9dba02050b7a7e5bd0b961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaqg2wwxirhs6in2sxspfpuy2d7i3q7h7bwikcwm5fnasyng2cksya</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>test1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89ebfbe9dba02050b7a7e5bd0b96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaghamclblapafyyb73s3lcxph7frdi2fb3mv42k3axhoy6l6jxala</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TestDemo</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49ebfbe9dba02050b7a7e5bd0b96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaxyigcsel4zzdivith54e4zdy2elpxad22ju2asukhi67kio2av3q</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>testvcncompartment.l1yRJWfH</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09ebfbe9dba02050b7a7e5bd0b96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaalrzyse7tvxht6rmb2ammrnpkcvq3gc6obqt7d3x34fqttyqk3aja</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TYest</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5ebfbe9dba02050b7a7e5bd0b96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaq6qter23zdyb6jxbj6l2opsg4log5ccabg5xi5pxdnzk3qbdqr7a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>updatedcompartmentrncln</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85ebfbe9dba02050b7a7e5bd0b96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaywibrz34p5aqbbhqakni5t6ijdqqko2oeeaiqq5x5mceri4z2xfq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>updateFirst</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45ebfbe9dba02050b7a7e5bd0b96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaannt3vcuagzduizhriulgotium2g32564pcx4i4wcuekdmzgpvzna</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VCNSpokeTest</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05ebfbe9dba02050b7a7e5bd0b961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:03:34</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaayjki42ewm2jqirhac6yb2m7t4h7ryneyphqintqv2djxcko6sela</value>
         </sys_choice>
     </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be^sys_idNOT IN3d9e0904db27501020c17a2faa9619df,51f63084db84205020c17a2faa96196f,759e0904db27501020c17a2faa9619e5,ddf63084db84205020c17a2faa961974"/>
@@ -3434,17 +3757,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Look up Boot Volume Attachments">a7da4d40db27501020c17a2faa9619be</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"baae0d04db27501020c17a2faa96190d","name":"plan"}}</plan>
-        <snapshot>427cbdf2dbdc6810b7a7e5bd0b961976</snapshot>
+        <snapshot>2c2c332ddba02050b7a7e5bd0b961902</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:33:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>baae0d04db27501020c17a2faa96190d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:40</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:47</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3457,7 +3780,7 @@
         <copied_from_name/>
         <description>&lt;p&gt;Lists the boot volume attachments in the specified compartment.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;Tenancy ID&lt;/b&gt; -OCID of the tenancy.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Compartment ID&lt;/b&gt; -OCID of the compartment&lt;/li&gt; &lt;p&gt;&lt;/p&gt; &lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure, Status is set to “Error”.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error, along with code. Populated only when an error occurs.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Boot Volume Attachment List&lt;/b&gt; -Lists of boot volume attachments with details in the specified compartment.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Output&lt;/b&gt; - Lists of boot volume attachments in the specified compartment.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt; &lt;ul&gt; &lt;li&gt;Bad Request.&lt;/li&gt; &lt;li&gt;Internal Server Error.&lt;/li&gt; &lt;li&gt;Not Found.&lt;/li&gt; &lt;li&gt;Unauthorized.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;To use this action, the corresponding Oracle connection and credential must be created and associated with the Oracle Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt; &lt;/p&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt; &lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;. &lt;/p&gt;</description>
         <internal_name>lookup_boot_volume_attachments</internal_name>
-        <label_cache>[{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id_}}","label":"action➛Compartment Id*","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.boot_volume_id}}","label":"action➛Boot Volume Id","type":"action","ref":""},{"name":"{{action.tenancy_id}}","label":"action➛Tenancy ID","type":"action","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartment_id}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartmentid}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].availability_domain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].availabilitydomain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].boot_volume_id}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].bootvolumeid}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].status_code}}","label":"step➛Look up Boot Volume Attachments➛Status Code","type":"step","ref":""},{"name":"{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].response_body}}","label":"step➛Look up Boot Volume Attachments➛Response Body","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].document}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].errormessage}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].documents}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_list}}","label":"step➛Post Processing➛Boot Volume Detailed List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].Boot_Volume_Detailed_Attachment_List.Boot_Volume_Details}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List➛Boot Volume Details","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].Boot_Volume_Detailed_Attachment_List}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List➛Boot Volume Detailed Attachment","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id_}}","label":"action➛Compartment Id*","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.boot_volume_id}}","label":"action➛Boot Volume Id","type":"action","ref":""},{"name":"{{action.tenancy_id}}","label":"action➛Tenancy ID","type":"action","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartment_id}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartmentid}}","label":"step➛Pre Processing➛Compartment ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].availability_domain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].availabilitydomain}}","label":"step➛Pre Processing➛Availability Domain","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].boot_volume_id}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].bootvolumeid}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].status_code}}","label":"step➛Look up Boot Volume Attachments➛Status Code","type":"step","ref":""},{"name":"{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].response_body}}","label":"step➛Look up Boot Volume Attachments➛Response Body","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].document}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].errormessage}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].documents}}","label":"step➛Post Processing➛Documents","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_list}}","label":"step➛Post Processing➛Boot Volume Detailed List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].Boot_Volume_Detailed_Attachment_List.Boot_Volume_Details}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List➛Boot Volume Details","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].Boot_Volume_Detailed_Attachment_List}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment}}","label":"step➛Post Processing➛Boot Volume Detailed Attachment List➛Boot Volume Detailed Attachment","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.FD09f63084bc8420507087588b136dd23e}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment List","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child1}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child1","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.availabilityDomain}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛availabilityDomain","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child2}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child2","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.bootVolumeId}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛bootVolumeId","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child3}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child3","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.compartmentId}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛compartmentId","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child4}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child4","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.displayName}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛displayName","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child5}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child5","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.id}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛id","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child6}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child6","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.instanceId}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛instanceId","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child7}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child7","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.lifecycleState}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛lifecycleState","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child8}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child8","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.timeCreated}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛timeCreated","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child9}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child9","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.attachmentType}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛attachmentType","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.boot_volume_detailed_attachment_child10}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛Boot Volume Detailed Attachment_child10","type":"step","ref":""},{"name":"{{step[5f729f29-057f-4b09-b947-2f0d1107ab4c].boot_volume_detailed_attachment_list.Boot_Volume_Detailed_Attachment.isPvEncryptionInTransitEnabled}}","label":"step➛Post Processing➛boot_volume_detailed_attachment_list➛Boot Volume Detailed Attachment➛isPvEncryptionInTransitEnabled","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Look up Boot Volume Attachments</name>
         <natlang/>
@@ -3470,7 +3793,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5ae8904db27501020c17a2faa9619de</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3478,7 +3801,7 @@
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 09:51:39</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3875,10 +4198,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:59</sys_created_on>
         <sys_id>21aec904db27501020c17a2faa961934</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:37</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21aec904db27501020c17a2faa961934"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3903,9 +4226,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:33:00</sys_created_on>
         <sys_id>edaec904db27501020c17a2faa961955</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:37</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   var data = new Array();
@@ -3915,7 +4238,7 @@
     if (inputs.status == '200') {
         try {
             var responseData = JSON.parse(inputs.response);
-          	outputs.boot_volume_detailed_attachment_list = JSON.stringify(responseData);
+          	outputs.boot_volume_detailed_attachment_list = responseData;
             for (var i = 0; i &lt; responseData.length; i++) {
                 var document = new Object();
                 document.label = responseData[i].displayName;
@@ -4191,7 +4514,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>errormessage</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
@@ -4217,14 +4540,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:59</sys_created_on>
         <sys_id>25aec904db27501020c17a2faa961948</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:50</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4240,7 +4563,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=cf8c61ce-7960-4251-9305-cb27a1324c5c,co_type_name=FD727cfdf2d5dc6810cd5eaf118fb46b6a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030</attributes>
+        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=08833bab-ca67-4731-93fb-71290513c482,co_type_name=FDf12c732d8aa020507127ec9a671b7a3b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4272,7 +4595,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Boot Volume Detailed Attachment List</label>
+        <label>boot_volume_detailed_attachment_list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
@@ -4298,14 +4621,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 07:21:11</sys_created_on>
         <sys_id>3107f084db84205020c17a2faa96197a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:37</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4353,7 +4676,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Documents</label>
+        <label>documents</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
@@ -4379,14 +4702,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 13:20:50</sys_created_on>
         <sys_id>6e999588db27501020c17a2faa96197d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:50</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4434,7 +4757,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
@@ -4460,14 +4783,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:59</sys_created_on>
         <sys_id>e9aec904db27501020c17a2faa96194d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:50</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4822,7 +5145,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Compartment ID</label>
+        <label>compartmentid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">d5ae8904db27501020c17a2faa9619f1</model>
@@ -4848,14 +5171,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:58</sys_created_on>
         <sys_id>d1aec904db27501020c17a2faa961905</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:58</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4963,7 +5286,7 @@
 })(current);]]></calculation>
         <choice>1</choice>
         <choice_field/>
-        <choice_table/>
+        <choice_table>ocid1.tenancy.oc1..aaaaaaaatk6fnxw324trjilvekrte2le4xac5paw3f26spozkgnat435tpwq</choice_table>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -5011,14 +5334,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:05:48</sys_created_on>
         <sys_id>ab90e236db40601020c17a2faa96198a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:05:48</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5038,9 +5361,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-28 04:05:49</sys_created_on>
         <sys_id>ab90e236db40601020c17a2faa961992</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:36</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:42</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ab90e236db40601020c17a2faa961992"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5062,7 +5385,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=db0aa8e5-1111-417e-a40a-c369cde127a9,co_type_name=FD767cfdf2dedc6810b0d2416fa1fe3d7c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=5f729f29-057f-4b09-b947-2f0d1107ab4c,sourceType=step,sourceUiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=a278e400-b20f-4c1c-bf56-46826ccd8461</attributes>
+        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=1ae3c41f-c1b9-4eea-9d32-a182f9e2651d,co_type_name=FD3d2c732d2ca02050e0922b07301e9e59,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=5f729f29-057f-4b09-b947-2f0d1107ab4c,sourceType=step,sourceUiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=a278e400-b20f-4c1c-bf56-46826ccd8461</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5122,14 +5445,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 07:21:11</sys_created_on>
         <sys_id>0607f084db84205020c17a2faa961991</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:37</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5720,10 +6043,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:59</sys_created_on>
         <sys_id>21aec904db27501020c17a2faa961934</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:37</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21aec904db27501020c17a2faa961934"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5748,9 +6071,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:33:00</sys_created_on>
         <sys_id>edaec904db27501020c17a2faa961955</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:37</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   var data = new Array();
@@ -5760,7 +6083,7 @@
     if (inputs.status == '200') {
         try {
             var responseData = JSON.parse(inputs.response);
-          	outputs.boot_volume_detailed_attachment_list = JSON.stringify(responseData);
+          	outputs.boot_volume_detailed_attachment_list = responseData;
             for (var i = 0; i &lt; responseData.length; i++) {
                 var document = new Object();
                 document.label = responseData[i].displayName;
@@ -6036,7 +6359,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>errormessage</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
@@ -6062,14 +6385,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:59</sys_created_on>
         <sys_id>25aec904db27501020c17a2faa961948</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:50</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6085,7 +6408,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=cf8c61ce-7960-4251-9305-cb27a1324c5c,co_type_name=FD727cfdf2d5dc6810cd5eaf118fb46b6a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030</attributes>
+        <attributes>child_label=Boot Volume Detailed Attachment,child_name=Boot_Volume_Detailed_Attachment,child_type=object,child_type_label=Object,child_uiUniqueId=08833bab-ca67-4731-93fb-71290513c482,co_type_name=FDf12c732d8aa020507127ec9a671b7a3b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=81e62412-4cc3-487b-92f3-02c24d753030</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6117,7 +6440,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Boot Volume Detailed Attachment List</label>
+        <label>boot_volume_detailed_attachment_list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
@@ -6143,14 +6466,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 07:21:11</sys_created_on>
         <sys_id>3107f084db84205020c17a2faa96197a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 11:43:37</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6198,7 +6521,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Documents</label>
+        <label>documents</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
@@ -6224,14 +6547,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 13:20:50</sys_created_on>
         <sys_id>6e999588db27501020c17a2faa96197d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:50</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6279,7 +6602,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
@@ -6305,14 +6628,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:59</sys_created_on>
         <sys_id>e9aec904db27501020c17a2faa96194d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:50</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6667,7 +6990,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Compartment ID</label>
+        <label>compartmentid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">d5ae8904db27501020c17a2faa9619f1</model>
@@ -6693,14 +7016,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 12:32:58</sys_created_on>
         <sys_id>d1aec904db27501020c17a2faa961905</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:58</sys_updated_on>
+        <sys_updated_on>2020-11-18 10:04:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6759,7 +7082,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de^sys_idNOT IN2390e236db40601020c17a2faa96198e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de^sys_idNOT IN2390e236db40601020c17a2faa96198e,2d2c332ddba02050b7a7e5bd0b9619e8,a92c332ddba02050b7a7e5bd0b9619f6,692c332ddba02050b7a7e5bd0b9619f7,292c332ddba02050b7a7e5bd0b9619f8,e52c332ddba02050b7a7e5bd0b9619f9,a52c332ddba02050b7a7e5bd0b9619fa,652c332ddba02050b7a7e5bd0b9619fb,252c332ddba02050b7a7e5bd0b9619fc,e12c332ddba02050b7a7e5bd0b9619fd,a12c332ddba02050b7a7e5bd0b9619fe,612c332ddba02050b7a7e5bd0b9619ff,212c732ddba02050b7a7e5bd0b961900,ed2c732ddba02050b7a7e5bd0b961900,ad2c732ddba02050b7a7e5bd0b961901,6d2c732ddba02050b7a7e5bd0b961902,2d2c732ddba02050b7a7e5bd0b961903,e92c732ddba02050b7a7e5bd0b961904"/>
     <sys_choice field="compartment_id" table="var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -6779,6 +7102,329 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-10-28 04:05:48</sys_updated_on>
             <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>childCompart</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d2c332ddba02050b7a7e5bd0b9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaamzvswdu4fhz7wq7hpbarwcfnnbhxs7czf73ta3wuvdx5ow6varaq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DemoCompart</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a92c332ddba02050b7a7e5bd0b9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaatofwymyfle3yvscz6hppsxeixkzaajbbh23vrmac7tiq6bgnfjxa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>firstcchild</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>692c332ddba02050b7a7e5bd0b9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaapqe3tgbh7squq7tsiu6qnhqqjaxblxwuewgmrhs3pm3ogeox77fq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>firstChild2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>292c332ddba02050b7a7e5bd0b9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaqnwgtlvd7eryorvsdv5adcboz7lpnjal6grsmtdy3urq3nhqvqsa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>firstChild3</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e52c332ddba02050b7a7e5bd0b9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaespz3pd6niecpfb66cffamglsajmb4hbqyrc5wczp7e5awva4vpq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ManagedCompartmentForPaaS</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a52c332ddba02050b7a7e5bd0b9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaamp7hb6zt23i6gmubnwh5unv4d3dubzc5qmvulwru2mfv2yaowtka</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OEBSCompartment</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>652c332ddba02050b7a7e5bd0b9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaa4nkls3xk62jkgrejhyicih3lxvvwn4mxkk2ciowz5pe6fnx35w4a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OraclePeoplesoft</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>252c332ddba02050b7a7e5bd0b9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaeyed3awlhalpojmsy654xd3aorpgik6jbnexffanxgzthhrsrhgq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Test</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e12c332ddba02050b7a7e5bd0b9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaayav6ugvkkobbdodd4pafvuuwwjpt2dn2tf65vowzpk6nzmtmuhwa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Test</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a12c332ddba02050b7a7e5bd0b9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaqg2wwxirhs6in2sxspfpuy2d7i3q7h7bwikcwm5fnasyng2cksya</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>test1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>612c332ddba02050b7a7e5bd0b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaghamclblapafyyb73s3lcxph7frdi2fb3mv42k3axhoy6l6jxala</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TestDemo</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>212c732ddba02050b7a7e5bd0b961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaxyigcsel4zzdivith54e4zdy2elpxad22ju2asukhi67kio2av3q</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>testvcncompartment.l1yRJWfH</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed2c732ddba02050b7a7e5bd0b961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaalrzyse7tvxht6rmb2ammrnpkcvq3gc6obqt7d3x34fqttyqk3aja</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TYest</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad2c732ddba02050b7a7e5bd0b961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:41</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaq6qter23zdyb6jxbj6l2opsg4log5ccabg5xi5pxdnzk3qbdqr7a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>updatedcompartmentrncln</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d2c732ddba02050b7a7e5bd0b961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:42</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaaywibrz34p5aqbbhqakni5t6ijdqqko2oeeaiqq5x5mceri4z2xfq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>updateFirst</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d2c732ddba02050b7a7e5bd0b961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:42</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaannt3vcuagzduizhriulgotium2g32564pcx4i4wcuekdmzgpvzna</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compartment_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VCNSpokeTest</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-18 10:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e92c732ddba02050b7a7e5bd0b961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-18 10:04:42</sys_updated_on>
+            <value>ocid1.compartment.oc1..aaaaaaaayjki42ewm2jqirhac6yb2m7t4h7ryneyphqintqv2djxcko6sela</value>
         </sys_choice>
     </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de^sys_idNOT IN0a07f084db84205020c17a2faa9619a8,75aec904db27501020c17a2faa961969,7daec904db27501020c17a2faa961963,ca07f084db84205020c17a2faa9619a2"/>
