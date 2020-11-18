@@ -9580,7 +9580,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>imageid</element>
+        <element>definedtags</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -9590,13 +9590,13 @@
         <internal_type display_value="String">string</internal_type>
         <label>imageid</label>
         <mandatory>true</mandatory>
-        <max_length>8000</max_length>
+        <max_length>4000</max_length>
         <model display_value="Post Processing">8d58d848dba3501020c17a2faa961937</model>
         <model_id>8d58d848dba3501020c17a2faa961937</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_8d58d848dba3501020c17a2faa961937</name>
         <next_element/>
-        <order>3</order>
+        <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -9637,7 +9637,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=602bee1b-3652-4817-89bc-575ebe78a954</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8d07dd99-46e0-4733-ac6e-6ffa131a8446</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9661,7 +9661,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>volumegroupid</element>
+        <element>imageid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -9677,7 +9677,7 @@
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_8d58d848dba3501020c17a2faa961937</name>
         <next_element/>
-        <order>8</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>

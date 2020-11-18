@@ -11267,7 +11267,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=f3021fb3-69f9-4737-99ee-e51aab32c41f</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=88134f52-93c8-4537-9022-4e6d2931de61</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -11291,7 +11291,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>freeformtags</element>
+        <element>displayname</element>
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -11300,10 +11300,10 @@
         <help/>
         <hint/>
         <internal_link/>
-        <internal_type display_value="JSON">json</internal_type>
-        <label>Free Form Tags</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>Display Name</label>
         <mandatory>false</mandatory>
-        <max_length>4000</max_length>
+        <max_length>8000</max_length>
         <model display_value="Get Boot Volume">1c3e23abdb5b101020c17a2faa9619d1</model>
         <model_id>1c3e23abdb5b101020c17a2faa9619d1</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>

@@ -13,7 +13,9 @@
         <ih_action>true</ih_action>
         <internal_name>create_boot_volume_backup</internal_name>
         <label_cache>[{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.availability_domain}}","label":"action➛Availability Domain","type":"action","ref":""},{"name":"{{action.compartment_id}}","label":"action➛Compartment ID","type":"action","ref":""},{"name":"{{action.boot_volume_id}}","label":"action➛Boot Volume ID","type":"action","ref":""},{"name":"{{action.display_name}}","label":"action➛Display Name","type":"action","ref":""},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":""},{"name":"{{action.free_form_tags}}","label":"action➛Free Form Tags","type":"action","ref":""},{"name":"{{action.free_form_tags.Free_Form_Tag}}","label":"action➛Free Form Tags➛Free Form Tag","type":"action","ref":""},{"name":"{{action.free_form_tags.Free_Form_Tag.Name}}","label":"action➛Free Form Tags➛Free Form Tag➛Name","type":"action","ref":""},{"name":"{{action.free_form_tags.Free_Form_Tag.Value}}","label":"action➛Free Form Tags➛Free Form Tag➛Value","type":"action","ref":""},{"name":"{{action.tenancy_id}}","label":"action➛Tenancy ID","type":"action","ref":""},{"name":"{{step[2624aea9-6490-4033-b159-1c25a99c1309].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[2624aea9-6490-4033-b159-1c25a99c1309].boot_volume_id}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[2624aea9-6490-4033-b159-1c25a99c1309].bootvolumeid}}","label":"step➛Pre Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[2624aea9-6490-4033-b159-1c25a99c1309].display_name}}","label":"step➛Pre Processing➛Display Name","type":"step","ref":""},{"name":"{{step[2624aea9-6490-4033-b159-1c25a99c1309].displayname}}","label":"step➛Pre Processing➛Display Name","type":"step","ref":""},{"name":"{{step[2624aea9-6490-4033-b159-1c25a99c1309].type}}","label":"step➛Pre Processing➛Type","type":"step","ref":""},{"name":"{{step[2624aea9-6490-4033-b159-1c25a99c1309].freeform_tags}}","label":"step➛Pre Processing➛Freeform Tags","type":"step","ref":""},{"name":"{{step[2624aea9-6490-4033-b159-1c25a99c1309].freeformtags}}","label":"step➛Pre Processing➛Freeform Tags","type":"step","ref":""},{"name":"{{step[2624aea9-6490-4033-b159-1c25a99c1309].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[6a869045-dd78-4a08-ae7d-ac5f5dea8276].response_body}}","label":"step➛Create Boot Volume Backup➛Response Body","type":"step","ref":""},{"name":"{{step[6a869045-dd78-4a08-ae7d-ac5f5dea8276].status_code}}","label":"step➛Create Boot Volume Backup➛Status Code","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].errormessage}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].variable3}}","label":"step➛Post Processing➛variable3","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].variable4}}","label":"step➛Post Processing➛variable4","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].variable5}}","label":"step➛Post Processing➛variable5","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].definedtags}}","label":"step➛Post Processing➛Defined Tags","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].system_tags}}","label":"step➛Post Processing➛System Tags","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].systemtags}}","label":"step➛Post Processing➛System Tags","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].boot_volume_id}}","label":"step➛Post Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].imageid}}","label":"step➛Post Processing➛Image ID","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].lifecyclestate}}","label":"step➛Post Processing➛Life Cycle State","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].size_in_gbs}}","label":"step➛Post Processing➛Size in GBs","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].sizeingbs}}","label":"step➛Post Processing➛Size in GBs","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].source_type}}","label":"step➛Post Processing➛Source Type","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].sourcetype}}","label":"step➛Post Processing➛Source Type","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].source_details}}","label":"step➛Post Processing➛Source Details","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].sourcedetails}}","label":"step➛Post Processing➛Source Details","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].time_created}}","label":"step➛Post Processing➛Time Created","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].timecreated}}","label":"step➛Post Processing➛Time Created","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].time_request_received}}","label":"step➛Post Processing➛Time Request Received","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].timerequestreceived}}","label":"step➛Post Processing➛Time Request Received","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995]._}}","label":"step➛Post Processing➛","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].kms_key_id}}","label":"step➛Post Processing➛KMS Key ID","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].type}}","label":"step➛Post Processing➛Type","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].unique_size_in_gbs}}","label":"step➛Post Processing➛Unique Size In GBs","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].uniquesizeingbs}}","label":"step➛Post Processing➛Unique Size In GBs","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].source_boot_volume_backup_id}}","label":"step➛Post Processing➛Source Boot Volume Backup ID","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].sourcebootvolumebackupid}}","label":"step➛Post Processing➛Source Boot Volume Backup ID","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].bootvolumeid}}","label":"step➛Post Processing➛Boot Volume ID","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].kmskeyid}}","label":"step➛Post Processing➛KMS Key ID","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].boot_volume_backup_id}}","label":"step➛Post Processing➛Boot Volume Backup Id","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].bootvolumebackupid}}","label":"step➛Post Processing➛Boot Volume Backup Id","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].expiration_time}}","label":"step➛Post Processing➛Expiration Time","type":"step","ref":""},{"name":"{{step[a582641b-cbf3-45c7-bf8a-da875b8fb995].expirationtime}}","label":"step➛Post Processing➛Expiration Time","type":"step","ref":""}]</label_cache>
+
         <latest_snapshot>0987fbe5dba02050b7a7e5bd0b9619c1</latest_snapshot>
+
         <master_snapshot>58d1e7ccdbfb5810b7a7e5bd0b96190b</master_snapshot>
         <name>Create Boot Volume Backup</name>
         <natlang/>
@@ -27,6 +29,7 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32b960d8dbab501020c17a2faa961938</sys_id>
         <sys_mod_count>43</sys_mod_count>
+
         <sys_name>Create Boot Volume Backup</sys_name>
         <sys_overrides/>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -35,6 +38,7 @@
         <sys_update_name>sys_hub_action_type_definition_32b960d8dbab501020c17a2faa961938</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-18 09:44:36</sys_updated_on>
+
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1141,13 +1145,16 @@
         <sys_created_on>2020-10-19 11:26:56</sys_created_on>
         <sys_id>254f2944db08205020c17a2faa9619e1</sys_id>
         <sys_mod_count>2</sys_mod_count>
+
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
+
         <sys_updated_on>2020-11-18 09:44:06</sys_updated_on>
+
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1302,7 +1309,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 11:26:55</sys_created_on>
         <sys_id>294f2944db08205020c17a2faa9619c9</sys_id>
+
         <sys_mod_count>2</sys_mod_count>
+
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1310,6 +1319,7 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-18 09:44:05</sys_updated_on>
+
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1465,6 +1475,7 @@
         <sys_created_on>2020-10-19 11:26:55</sys_created_on>
         <sys_id>654f2944db08205020c17a2faa9619db</sys_id>
         <sys_mod_count>2</sys_mod_count>
+
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1877,7 +1888,7 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-18 09:44:06</sys_updated_on>
-        <table_reference>false</table_reference>
+<table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
@@ -1950,14 +1961,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 11:26:56</sys_created_on>
         <sys_id>b14f2944db08205020c17a2faa9619ed</sys_id>
+
         <sys_mod_count>3</sys_mod_count>
+
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
+
         <sys_updated_on>2020-11-18 09:44:06</sys_updated_on>
+
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -14485,7 +14500,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 11:37:56</sys_created_on>
         <sys_id>fac1f1c4db08205020c17a2faa9619b5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+
         <sys_name/>
         <sys_package/>
         <sys_policy/>

@@ -4152,7 +4152,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>imageid</element>
+        <element>ishydrated</element>
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -4161,10 +4161,10 @@
         <help/>
         <hint/>
         <internal_link/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Image ID</label>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Is Hydrated</label>
         <mandatory>false</mandatory>
-        <max_length>8000</max_length>
+        <max_length>40</max_length>
         <model display_value="Update Boot Volume">281d3fa3db9b101020c17a2faa96192c</model>
         <model_id>281d3fa3db9b101020c17a2faa96192c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
@@ -4189,6 +4189,7 @@
         <sys_created_on>2020-09-24 07:30:00</sys_created_on>
         <sys_id>d3490c00dba3501020c17a2faa961911</sys_id>
         <sys_mod_count>3</sys_mod_count>
+
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
@@ -4196,89 +4197,6 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:41:34</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=4d469d23-5a70-4373-b80b-0af05ead2211</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>ishydrated</element>
-        <element_prototype/>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="">boolean</internal_type>
-        <label>Is Hydrated</label>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Update Boot Volume">281d3fa3db9b101020c17a2faa96192c</model>
-        <model_id>281d3fa3db9b101020c17a2faa96192c</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_281d3fa3db9b101020c17a2faa96192c</name>
-        <next_element/>
-        <order>5</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 07:30:00</sys_created_on>
-        <sys_id>d3490c00dba3501020c17a2faa961917</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy>read</sys_policy>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-15 06:41:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4336,7 +4254,7 @@
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_281d3fa3db9b101020c17a2faa96192c</name>
         <next_element/>
-        <order>6</order>
+        <order>5</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -4353,8 +4271,8 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 07:30:00</sys_created_on>
-        <sys_id>d3490c00dba3501020c17a2faa961923</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>d3490c00dba3501020c17a2faa961917</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
@@ -4419,7 +4337,7 @@
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_281d3fa3db9b101020c17a2faa96192c</name>
         <next_element/>
-        <order>7</order>
+        <order>6</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -4436,8 +4354,8 @@
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 07:30:00</sys_created_on>
-        <sys_id>d3490c00dba3501020c17a2faa96192f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>d3490c00dba3501020c17a2faa961923</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
@@ -4495,6 +4413,89 @@
         <internal_link/>
         <internal_type display_value="String">string</internal_type>
         <label>Source Details</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Boot Volume">281d3fa3db9b101020c17a2faa96192c</model>
+        <model_id>281d3fa3db9b101020c17a2faa96192c</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_281d3fa3db9b101020c17a2faa96192c</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-24 07:30:00</sys_created_on>
+        <sys_id>d3490c00dba3501020c17a2faa96192f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-15 06:41:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=f64fe2c5-42c6-40b1-bbca-e8f14a73d47d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>kmskeyid</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>KMS Key ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
         <model display_value="Update Boot Volume">281d3fa3db9b101020c17a2faa96192c</model>
@@ -5826,7 +5827,7 @@
         <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:41:34</sys_updated_on>
-        <value>(function execute(inputs, outputs) {
+  <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "200"){
     try{
@@ -7392,6 +7393,7 @@
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_281d3fa3db9b101020c17a2faa96192c_definedtags_en</sys_update_name>
+
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 07:29:59</sys_updated_on>
         <url/>
@@ -7678,16 +7680,19 @@
         <action_id display_value="Update Boot Volume">281d3fa3db9b101020c17a2faa96192c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"34cd88c0dba3501020c17a2faa96198f","name":"plan"}}</plan>
         <snapshot>3b213368db6c6c10b7a7e5bd0b96194f</snapshot>
+
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 07:49:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>34cd88c0dba3501020c17a2faa96198f</sys_id>
+
         <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:43:04</sys_updated_on>
+
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -9181,10 +9186,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-24 07:49:20</sys_created_on>
         <sys_id>d6bd08c0dba3501020c17a2faa961929</sys_id>
+
         <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:41:59</sys_updated_on>
+
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d6bd08c0dba3501020c17a2faa961929"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -9212,6 +9219,7 @@
         <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:41:59</sys_updated_on>
+
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "200"){
@@ -10170,6 +10178,7 @@
         <sys_created_on>2020-09-24 07:49:22</sys_created_on>
         <sys_id>83bd08c0dba3501020c17a2faa9619c6</sys_id>
         <sys_mod_count>3</sys_mod_count>
+
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -10251,13 +10260,16 @@
         <sys_created_on>2020-09-24 07:49:21</sys_created_on>
         <sys_id>b2bd08c0dba3501020c17a2faa96196e</sys_id>
         <sys_mod_count>3</sys_mod_count>
+
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
+
         <sys_updated_on>2020-11-15 06:41:58</sys_updated_on>
+
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -10313,7 +10325,9 @@
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_d6bd08c0dba3501020c17a2faa961929</name>
         <next_element/>
+
         <order>5</order>
+
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -10385,6 +10399,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+
         <internal_type display_value="String">string</internal_type>
         <label>KMS Key ID</label>
         <mandatory>true</mandatory>
@@ -10599,6 +10614,7 @@
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes>child_label=Free Form Tag,child_name=Free_Form_Tag,child_type=object,child_type_label=Object,child_uiUniqueId=664d5da9-979d-4291-a30c-e46a0850be63,co_type_name=FD01317368da6c6c10361cce4bb779aee6,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=65395221-0274-489b-89d0-72a5b2d779e2</attributes>
+
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -10657,6 +10673,7 @@
         <sys_created_on>2020-09-24 07:49:18</sys_created_on>
         <sys_id>4ebdc4c0dba3501020c17a2faa9619c2</sys_id>
         <sys_mod_count>8</sys_mod_count>
+
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -10664,6 +10681,7 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:42:57</sys_updated_on>
+
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -10767,6 +10785,7 @@
         <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:42:57</sys_updated_on>
+
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fd6534afdb671810b7a7e5bd0b9619fb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -11213,6 +11232,7 @@
         <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:42:57</sys_updated_on>
+
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee9b3bfadb04601020c17a2faa96197e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -13486,6 +13506,7 @@
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:41:59</sys_updated_on>
+
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d6bd08c0dba3501020c17a2faa961929"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -13513,6 +13534,7 @@
         <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-15 06:41:59</sys_updated_on>
+
         <value>(function execute(inputs, outputs) {
 // ... code ...
   if(inputs.status == "200"){
