@@ -8,11 +8,11 @@
             <sys_created_on>2020-10-28 10:08:37</sys_created_on>
             <sys_id>2135bfa1dba02050b7a7e5bd0b96199a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>availability_domain</sys_name>
+            <sys_name/>
             <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
             <sys_policy/>
             <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-            <sys_update_name>sys_choice_var__m_sys_hub_action_input_60589848dba3501020c17a2faa961979_availability_domain</sys_update_name>
+            <sys_update_name/>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-10-28 10:08:37</sys_updated_on>
         </sys_choice_set>
@@ -34,6 +34,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-10-28 10:08:37</sys_updated_on>
             <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>availability_domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bybt:AP-MUMBAI-1-AD-1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_60589848dba3501020c17a2faa961979</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-19 03:29:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>325beffddbe82050b7a7e5bd0b9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-19 03:29:48</sys_updated_on>
+            <value>Bybt:AP-MUMBAI-1-AD-1</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -4,14 +4,14 @@
         <name>FD88ea5188a2c42050023dfbbb34eb6731</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>fc15aa1fdb57585020c17a2faa96194b</scope_name>
-        <serialized_content>{"FlowDesigner:FD88ea5188a2c42050023dfbbb34eb6731":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"32\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Boot Volume\":\"{\\\"label\\\":\\\"Boot Volume\\\",\\\"value\\\":\\\"bootVolume\\\",\\\"order\\\":1}\",\"Boot Volume Backup\":\"{\\\"label\\\":\\\"Boot Volume Backup\\\",\\\"value\\\":\\\"bootVolumeBackup\\\",\\\"order\\\":2}\"}}"}},"FlowDesigner:FD88ea5188a2c42050023dfbbb34eb6731.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Source Details\",\"mandatory\":\"false\",\"uiUniqueId\":\"7bca7bcb-99cf-4791-819c-314fef212da2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD88ea5188a2c42050023dfbbb34eb6731\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"10\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FD88ea5188a2c42050023dfbbb34eb6731":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"32\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Boot Volume\":\"{\\\"label\\\":\\\"Boot Volume\\\",\\\"value\\\":\\\"bootVolume\\\",\\\"order\\\":1}\",\"Boot Volume Backup\":\"{\\\"label\\\":\\\"Boot Volume Backup\\\",\\\"value\\\":\\\"bootVolumeBackup\\\",\\\"order\\\":2}\"}}"}},"FlowDesigner:FD88ea5188a2c42050023dfbbb34eb6731.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Source Details\",\"mandatory\":\"false\",\"uiUniqueId\":\"7bca7bcb-99cf-4791-819c-314fef212da2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD88ea5188a2c42050023dfbbb34eb6731\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"9\",\"max_length\":\"65000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-19 09:57:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4cea5188dbc4205020c17a2faa961931</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>FD88ea5188a2c42050023dfbbb34eb6731</sys_name>
         <sys_overrides/>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -19,7 +19,7 @@
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
         <sys_update_name>sys_complex_object_4cea5188dbc4205020c17a2faa961931</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:46:06</sys_updated_on>
+        <sys_updated_on>2020-11-19 03:23:07</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
 </record_update>
