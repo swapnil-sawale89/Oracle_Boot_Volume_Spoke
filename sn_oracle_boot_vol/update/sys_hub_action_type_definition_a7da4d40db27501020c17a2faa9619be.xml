@@ -136,7 +136,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -150,7 +150,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
         <value>/20160918/bootVolumeAttachments/</value>
-        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -164,7 +164,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 13:20:31</sys_updated_on>
         <value>{}</value>
-        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -178,7 +178,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -192,7 +192,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
         <value>3e23322fdbd7101020c17a2faa96190d</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -206,7 +206,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:53</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -220,7 +220,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -234,7 +234,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
         <value>https://iaas.ap-mumbai-1.oraclecloud.com</value>
-        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1d9e0904db27501020c17a2faa961980"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -469,7 +469,7 @@
   }
 })(inputs, outputs);
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -483,7 +483,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=459e0904db27501020c17a2faa961956"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -837,7 +837,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:43</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -884,7 +884,7 @@
     }
 })(inputs, outputs);
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a19e0904db27501020c17a2faa9619b2"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1507,7 +1507,7 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0c402ef2db40601020c17a2faa9619fc^sys_idNOT IN88406ef2db40601020c17a2faa961904"/>
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
-        <action_input display_value="">0c402ef2db40601020c17a2faa9619fc</action_input>
+        <action_input display_value="Compartment ID">0c402ef2db40601020c17a2faa9619fc</action_input>
         <action_inputs/>
         <action_type display_value="Look up Compartments">5d1c61eedb0b1c105be372143996195e</action_type>
         <sys_created_by>admin</sys_created_by>
@@ -1530,7 +1530,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-28 04:04:12</sys_updated_on>
         <value>{{action.tenancy_id}}</value>
-        <variable display_value="">251c61eedb0b1c105be3721439961963</variable>
+        <variable display_value="Tenancy ID">251c61eedb0b1c105be3721439961963</variable>
     </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1946,1328 +1946,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=a7da4d40db27501020c17a2faa9619be^sys_idNOT IN1d9e0904db27501020c17a2faa961980,459e0904db27501020c17a2faa961956,a19e0904db27501020c17a2faa9619b2"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume Attachments">a7da4d40db27501020c17a2faa9619be</action>
-        <cid>16a8752c-7379-44e9-94a6-25d86326b4aa</cid>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Look up Boot Volume Attachments</label>
-        <order>2</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>1d9e0904db27501020c17a2faa961980</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 09:51:26</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=1d9e0904db27501020c17a2faa961980"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>1d9e0904db27501020c17a2faa961980</document_key>
-        <order>13</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>2d9e0904db27501020c17a2faa9619ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>1d9e0904db27501020c17a2faa961980</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>699e0904db27501020c17a2faa9619ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <value>/20160918/bootVolumeAttachments/</value>
-        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>1d9e0904db27501020c17a2faa961980</document_key>
-        <order>25</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:53</sys_created_on>
-        <sys_id>88ae4904db27501020c17a2faa96198b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:31</sys_updated_on>
-        <value>{}</value>
-        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>1d9e0904db27501020c17a2faa961980</document_key>
-        <order>12</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>a19e0904db27501020c17a2faa9619ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>1d9e0904db27501020c17a2faa961980</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>a59e0904db27501020c17a2faa9619ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <value>3e23322fdbd7101020c17a2faa96190d</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>1d9e0904db27501020c17a2faa961980</document_key>
-        <order>30</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:53</sys_created_on>
-        <sys_id>c4ae4904db27501020c17a2faa96198b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:53</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>1d9e0904db27501020c17a2faa961980</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>e19e0904db27501020c17a2faa9619ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>1d9e0904db27501020c17a2faa961980</document_key>
-        <order>15</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>ed9e0904db27501020c17a2faa9619ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <value>https://iaas.ap-mumbai-1.oraclecloud.com</value>
-        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=1d9e0904db27501020c17a2faa961980"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>1d9e0904db27501020c17a2faa961980</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>619e0904db27501020c17a2faa9619ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>base_url</field>
-        <id>1d9e0904db27501020c17a2faa961980</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>ad9e0904db27501020c17a2faa9619ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>1d9e0904db27501020c17a2faa961980</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>e99e0904db27501020c17a2faa9619ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_alias</field>
-        <id>1d9e0904db27501020c17a2faa961980</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>659e0904db27501020c17a2faa9619ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>headers</field>
-        <id>1d9e0904db27501020c17a2faa961980</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:53</sys_created_on>
-        <sys_id>80ae4904db27501020c17a2faa96198b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:53</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>query_params</field>
-        <id>1d9e0904db27501020c17a2faa961980</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:53</sys_created_on>
-        <sys_id>44ae4904db27501020c17a2faa96198b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:13:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"compartmentId","value":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartmentid}}","attributes":{"omit_if_empty":false,"mandatory":true}}]}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>resource_path</field>
-        <id>1d9e0904db27501020c17a2faa961980</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>299e0904db27501020c17a2faa9619ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>retry_policy</field>
-        <id>1d9e0904db27501020c17a2faa961980</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>a19e0904db27501020c17a2faa9619ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=1d9e0904db27501020c17a2faa961980^sys_idNOT IN159e0904db27501020c17a2faa9619a1"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=5ca8082a-b836-4220-9852-3384016b781e</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>sn_auth_token</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">password2</internal_type>
-        <label>Credential Value</label>
-        <mandatory>false</mandatory>
-        <max_length>255</max_length>
-        <model display_value="Look up Boot Volume Attachments">1d9e0904db27501020c17a2faa961980</model>
-        <model_id>1d9e0904db27501020c17a2faa961980</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_1d9e0904db27501020c17a2faa961980</name>
-        <next_element/>
-        <order>7</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>159e0904db27501020c17a2faa9619a1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:52</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume Attachments">a7da4d40db27501020c17a2faa9619be</action>
-        <cid>b304566e-564e-4302-bbf8-9837a48691c4</cid>
-        <extended_inputs/>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <label>Pre Processing</label>
-        <order>1</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:41</sys_created_on>
-        <sys_id>459e0904db27501020c17a2faa961956</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:13:31</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=459e0904db27501020c17a2faa961956"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>459e0904db27501020c17a2faa961956</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>119e0904db27501020c17a2faa96197d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:13:31</sys_updated_on>
-        <value>(function execute(inputs, outputs) {
-// ... code ...
-  try{
-    var obvUtil = new OracleBootVolumeUtils();
-    obvUtil.validateInputVariables(inputs, outputs);
-   obvUtil.validateMandatoryVariables(inputs,["tenancyID"]);
-     if(inputs.tenancyID &amp;&amp; inputs.compartmentId){
-		outputs.compartmentid = inputs.compartmentId;
-    }
-    else if(inputs.tenancyID){
-    	outputs.compartmentid = inputs.tenancyID;
-    }
-  
-  }
-  catch(ex){
-    
-    throw new Error("Mandatory Fields Should be provided");
-    
-  }
-})(inputs, outputs);
-</value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>459e0904db27501020c17a2faa961956</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>599e0904db27501020c17a2faa96197c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=459e0904db27501020c17a2faa961956"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>459e0904db27501020c17a2faa961956</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>119e0904db27501020c17a2faa96197c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>availabilityDomain</field>
-        <id>459e0904db27501020c17a2faa961956</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>919e0904db27501020c17a2faa96197e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_459e0904db27501020c17a2faa961956</table>
-        <value>{{action.availability_domain}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>bootVolumeId</field>
-        <id>459e0904db27501020c17a2faa961956</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>dd9e0904db27501020c17a2faa96197d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_459e0904db27501020c17a2faa961956</table>
-        <value>{{action.boot_volume_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>compartmentId</field>
-        <id>459e0904db27501020c17a2faa961956</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>1d9e0904db27501020c17a2faa96197d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_459e0904db27501020c17a2faa961956</table>
-        <value>{{action.compartment_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>459e0904db27501020c17a2faa961956</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>d59e0904db27501020c17a2faa96197c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tenancyID</field>
-        <id>459e0904db27501020c17a2faa961956</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-28 04:04:13</sys_created_on>
-        <sys_id>9c406ef2db40601020c17a2faa961916</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:04:13</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_459e0904db27501020c17a2faa961956</table>
-        <value>{{action.tenancy_id}}</value>
-    </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=459e0904db27501020c17a2faa961956^sys_idNOT IN84406ef2db40601020c17a2faa96190c,d19e0904db27501020c17a2faa96195f"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>tenancyID</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label/>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">459e0904db27501020c17a2faa961956</model>
-        <model_id>459e0904db27501020c17a2faa961956</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_459e0904db27501020c17a2faa961956</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-28 04:04:12</sys_created_on>
-        <sys_id>84406ef2db40601020c17a2faa96190c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:04:12</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>compartmentId</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label/>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">459e0904db27501020c17a2faa961956</model>
-        <model_id>459e0904db27501020c17a2faa961956</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_459e0904db27501020c17a2faa961956</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:41</sys_created_on>
-        <sys_id>d19e0904db27501020c17a2faa96195f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:13:21</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=459e0904db27501020c17a2faa961956^sys_idNOT IN1d9e0904db27501020c17a2faa961967"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ab9dd0f5-ed73-4696-bc17-7307d3a78e9f</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>compartmentid</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>compartmentid</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">459e0904db27501020c17a2faa961956</model>
-        <model_id>459e0904db27501020c17a2faa961956</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_459e0904db27501020c17a2faa961956</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:41</sys_created_on>
-        <sys_id>1d9e0904db27501020c17a2faa961967</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 10:03:35</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume Attachments">a7da4d40db27501020c17a2faa9619be</action>
-        <cid>5f729f29-057f-4b09-b947-2f0d1107ab4c</cid>
-        <extended_inputs/>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <label>Post Processing</label>
-        <order>3</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>a19e0904db27501020c17a2faa9619b2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 15:21:29</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=a19e0904db27501020c17a2faa9619b2"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>a19e0904db27501020c17a2faa9619b2</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:43</sys_created_on>
-        <sys_id>259e0904db27501020c17a2faa9619d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:43</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>a19e0904db27501020c17a2faa9619b2</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:43</sys_created_on>
-        <sys_id>e59e0904db27501020c17a2faa9619d1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 15:21:29</sys_updated_on>
-        <value>(function execute(inputs, outputs) {
-// ... code ...
-  var data = new Array();
-    var document;
-    var documents = new Object();
-
-    if (inputs.status == '200') {
-        try {
-            var responseData = JSON.parse(inputs.response);
-          	outputs.bootvolumeattachmentlist = responseData;
-            for (var i = 0; i &lt; responseData.length; i++) {
-                var document = new Object();
-                document.label = responseData[i].displayName;
-                document.name = responseData[i].id;
-                data.push(document);
-            }
-        } catch (ex) {
-            var dummyDoc = new Object();
-            dummyDoc.label = '&lt;No Boot Volume Retrieved&gt;';
-            dummyDoc.name = null;
-            data.push(dummyDoc);
-        } finally {
-            documents.data = data;
-            outputs.documents = documents;
-            outputs.status = "Success";
-        }
-    } 
-  else {
-        var errMsgs = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
-        outputs.error_message = errMsgs[0];
-        outputs.status = errMsgs[1];
-    }
-})(inputs, outputs);
-</value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a19e0904db27501020c17a2faa9619b2"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>a19e0904db27501020c17a2faa9619b2</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:43</sys_created_on>
-        <sys_id>ed9e0904db27501020c17a2faa9619d0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>response</field>
-        <id>a19e0904db27501020c17a2faa9619b2</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:43</sys_created_on>
-        <sys_id>619e0904db27501020c17a2faa9619d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:43</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_a19e0904db27501020c17a2faa9619b2</table>
-        <value>{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>a19e0904db27501020c17a2faa9619b2</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:43</sys_created_on>
-        <sys_id>a19e0904db27501020c17a2faa9619d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>status</field>
-        <id>a19e0904db27501020c17a2faa9619b2</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:43</sys_created_on>
-        <sys_id>259e0904db27501020c17a2faa9619d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:43</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_a19e0904db27501020c17a2faa9619b2</table>
-        <value>{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].status_code}}</value>
-    </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=a19e0904db27501020c17a2faa9619b2^sys_idNOT IN259e0904db27501020c17a2faa9619b9,ad9e0904db27501020c17a2faa9619b4"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>response</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label/>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
-        <model_id>a19e0904db27501020c17a2faa9619b2</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_a19e0904db27501020c17a2faa9619b2</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:43</sys_created_on>
-        <sys_id>259e0904db27501020c17a2faa9619b9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:43</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>status</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label/>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
-        <model_id>a19e0904db27501020c17a2faa9619b2</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_a19e0904db27501020c17a2faa9619b2</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:42</sys_created_on>
-        <sys_id>ad9e0904db27501020c17a2faa9619b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:42</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=a19e0904db27501020c17a2faa9619b2^sys_idNOT IN7189d188db27501020c17a2faa9619b2,75a4c9b9dba42050b7a7e5bd0b9619c7,a19e0904db27501020c17a2faa9619c9,e99e0904db27501020c17a2faa9619c3"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=dbbc9c80-93ee-4311-a339-3293f69bc39e</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>documents</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="JSON">json</internal_type>
-        <label>documents</label>
-        <mandatory>true</mandatory>
-        <max_length>4000</max_length>
-        <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
-        <model_id>a19e0904db27501020c17a2faa9619b2</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_a19e0904db27501020c17a2faa9619b2</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 13:20:31</sys_created_on>
-        <sys_id>7189d188db27501020c17a2faa9619b2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 10:03:36</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>child_label=bootVolumeAttachmentList_child,child_name=bootVolumeAttachmentList_child,child_type=object,child_type_label=Object,child_uiUniqueId=7c968ce5-0b22-44aa-b800-ee21b3f81ca1,co_type_name=FD71a4c9b98ca4205024370352ee89cebe,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=6acb5bd7-aade-470a-b4ee-db3e4d2db9ba</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>bootvolumeattachmentlist</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>bootVolumeAttachmentList</label>
-        <mandatory>true</mandatory>
-        <max_length>65000</max_length>
-        <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
-        <model_id>a19e0904db27501020c17a2faa9619b2</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_a19e0904db27501020c17a2faa9619b2</name>
-        <next_element/>
-        <order>4</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-11-18 15:21:29</sys_created_on>
-        <sys_id>75a4c9b9dba42050b7a7e5bd0b9619c7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-19 04:06:24</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0619e04a-4852-4488-b385-3884c59c92cc</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>status</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>status</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
-        <model_id>a19e0904db27501020c17a2faa9619b2</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_a19e0904db27501020c17a2faa9619b2</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:43</sys_created_on>
-        <sys_id>a19e0904db27501020c17a2faa9619c9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 10:03:36</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f4379b5b-a443-408c-93ef-3400243b7cfd</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>errormessage</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>errormessage</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Post Processing">a19e0904db27501020c17a2faa9619b2</model>
-        <model_id>a19e0904db27501020c17a2faa9619b2</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_a19e0904db27501020c17a2faa9619b2</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:43</sys_created_on>
-        <sys_id>e99e0904db27501020c17a2faa9619c3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 10:03:36</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be^sys_idNOT IN44406ef2db40601020c17a2faa961903,c4402af2db40601020c17a2faa9619fd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>compartment_id</element>
@@ -3282,11 +1960,11 @@
         <sys_created_on>2020-10-28 04:04:12</sys_created_on>
         <sys_id>44406ef2db40601020c17a2faa961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Compartment ID</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be_compartment_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-28 04:04:12</sys_updated_on>
         <url/>
@@ -3305,11 +1983,11 @@
         <sys_created_on>2020-10-28 04:04:12</sys_created_on>
         <sys_id>c4402af2db40601020c17a2faa9619fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tenancy ID</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be_tenancy_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-28 04:04:12</sys_updated_on>
         <url/>
@@ -3326,6 +2004,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 04:04:12</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3345,6 +2024,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:33</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3364,6 +2044,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3383,6 +2064,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>3</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3402,6 +2084,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>4</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3421,6 +2104,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>5</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3440,6 +2124,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>6</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3459,6 +2144,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>7</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3478,6 +2164,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>8</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3497,6 +2184,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>9</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3516,6 +2204,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>10</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3535,6 +2224,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>11</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3554,6 +2244,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>12</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3573,6 +2264,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>13</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3592,6 +2284,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>14</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3611,6 +2304,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>15</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3630,6 +2324,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>16</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3649,6 +2344,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_a7da4d40db27501020c17a2faa9619be</name>
             <sequence>17</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:03:34</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3674,11 +2370,11 @@
         <sys_created_on>2020-09-24 12:32:43</sys_created_on>
         <sys_id>3d9e0904db27501020c17a2faa9619df</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be_errormessage_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:43</sys_updated_on>
         <url/>
@@ -3697,11 +2393,11 @@
         <sys_created_on>2020-10-19 07:20:52</sys_created_on>
         <sys_id>51f63084db84205020c17a2faa96196f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Boot Volume Detailed Attachment List</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be_boot_volume_detailed_attachment_list_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-19 07:20:52</sys_updated_on>
         <url/>
@@ -3720,11 +2416,11 @@
         <sys_created_on>2020-09-24 12:32:43</sys_created_on>
         <sys_id>759e0904db27501020c17a2faa9619e5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:43</sys_updated_on>
         <url/>
@@ -3743,16 +2439,79 @@
         <sys_created_on>2020-10-19 07:20:52</sys_created_on>
         <sys_id>ddf63084db84205020c17a2faa961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Output</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-19 07:20:52</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be^sys_idNOT IN547b66ad53c320106cc4ddeeff7b1255,a36be2ad53c320106cc4ddeeff7b12f6,eb6be2ad53c320106cc4ddeeff7b12f7"/>
+    <sys_choice field="status" table="var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-22 10:49:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>547b66ad53c320106cc4ddeeff7b1255</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-22 10:49:03</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-22 10:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a36be2ad53c320106cc4ddeeff7b12f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-22 10:48:59</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_a7da4d40db27501020c17a2faa9619be</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-22 10:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb6be2ad53c320106cc4ddeeff7b12f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-22 10:48:59</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+    </sys_choice>
     <sys_hub_action_plan action="delete_multiple" query="action_id=a7da4d40db27501020c17a2faa9619be^sys_idNOT INbaae0d04db27501020c17a2faa96190d"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Look up Boot Volume Attachments">a7da4d40db27501020c17a2faa9619be</action_id>
@@ -3903,7 +2662,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
         <value>3e23322fdbd7101020c17a2faa96190d</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3917,7 +2676,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
         <value>https://iaas.ap-mumbai-1.oraclecloud.com</value>
-        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3931,7 +2690,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3945,7 +2704,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3959,7 +2718,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 13:20:50</sys_updated_on>
         <value>{}</value>
-        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3973,7 +2732,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3987,7 +2746,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
         <value>/20160918/bootVolumeAttachments/</value>
-        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4001,7 +2760,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=19aec904db27501020c17a2faa96191c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4216,7 +2975,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:33:00</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4263,7 +3022,7 @@
     }
 })(inputs, outputs);
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=21aec904db27501020c17a2faa961934"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4836,7 +3595,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:32:58</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4870,7 +3629,7 @@
   }
 })(inputs, outputs);
 </value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d5ae8904db27501020c17a2faa9619f1"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5355,7 +4114,7 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ab90e236db40601020c17a2faa96198a^sys_idNOT INab90e236db40601020c17a2faa961992"/>
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
-        <action_input display_value="">ab90e236db40601020c17a2faa96198a</action_input>
+        <action_input display_value="Compartment ID">ab90e236db40601020c17a2faa96198a</action_input>
         <action_inputs/>
         <action_type display_value="Look up Compartments">5d1c61eedb0b1c105be372143996195e</action_type>
         <sys_created_by>admin</sys_created_by>
@@ -5378,7 +4137,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-28 04:05:49</sys_updated_on>
         <value>{{action.tenancy_id}}</value>
-        <variable display_value="">251c61eedb0b1c105be3721439961963</variable>
+        <variable display_value="Tenancy ID">251c61eedb0b1c105be3721439961963</variable>
     </sys_variable_value>
     <sys_hub_action_output action="delete_multiple" query="model=c5ae8904db27501020c17a2faa9619de^sys_idNOT IN0607f084db84205020c17a2faa961991,31aec904db27501020c17a2faa961965,39aec904db27501020c17a2faa96195f,4207f084db84205020c17a2faa9619a4"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -5713,1328 +4472,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=c5ae8904db27501020c17a2faa9619de^sys_idNOT IN19aec904db27501020c17a2faa96191c,21aec904db27501020c17a2faa961934,d5ae8904db27501020c17a2faa9619f1"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume Attachments">c5ae8904db27501020c17a2faa9619de</action>
-        <cid>16a8752c-7379-44e9-94a6-25d86326b4aa</cid>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Look up Boot Volume Attachments</label>
-        <order>2</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>19aec904db27501020c17a2faa96191c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-09 09:51:39</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=19aec904db27501020c17a2faa96191c"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>19aec904db27501020c17a2faa96191c</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>21aec904db27501020c17a2faa96192f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <value>3e23322fdbd7101020c17a2faa96190d</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>19aec904db27501020c17a2faa96191c</document_key>
-        <order>15</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>2daec904db27501020c17a2faa96192f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <value>https://iaas.ap-mumbai-1.oraclecloud.com</value>
-        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>19aec904db27501020c17a2faa96191c</document_key>
-        <order>13</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>69aec904db27501020c17a2faa96192f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>19aec904db27501020c17a2faa96191c</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>6daec904db27501020c17a2faa96192e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>19aec904db27501020c17a2faa96191c</document_key>
-        <order>25</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>a1aec904db27501020c17a2faa961930</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 13:20:50</sys_updated_on>
-        <value>{}</value>
-        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>19aec904db27501020c17a2faa96191c</document_key>
-        <order>30</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>a5aec904db27501020c17a2faa96192f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>19aec904db27501020c17a2faa96191c</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>e1aec904db27501020c17a2faa96192f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <value>/20160918/bootVolumeAttachments/</value>
-        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>19aec904db27501020c17a2faa96191c</document_key>
-        <order>12</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>edaec904db27501020c17a2faa96192f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=19aec904db27501020c17a2faa96191c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>19aec904db27501020c17a2faa96191c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>29aec904db27501020c17a2faa96192e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>base_url</field>
-        <id>19aec904db27501020c17a2faa96191c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>65aec904db27501020c17a2faa96192e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>19aec904db27501020c17a2faa96191c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>a1aec904db27501020c17a2faa96192e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_alias</field>
-        <id>19aec904db27501020c17a2faa96191c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>69aec904db27501020c17a2faa96192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>headers</field>
-        <id>19aec904db27501020c17a2faa96191c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>edaec904db27501020c17a2faa96192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>query_params</field>
-        <id>19aec904db27501020c17a2faa96191c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>e9aec904db27501020c17a2faa96192e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:21:11</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"compartmentId","value":"{{step[b304566e-564e-4302-bbf8-9837a48691c4].compartmentid}}","attributes":{"omit_if_empty":false,"mandatory":true}}]}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>resource_path</field>
-        <id>19aec904db27501020c17a2faa96191c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>2daec904db27501020c17a2faa96192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>retry_policy</field>
-        <id>19aec904db27501020c17a2faa96191c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>a5aec904db27501020c17a2faa96192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=19aec904db27501020c17a2faa96191c^sys_idNOT INa9aec904db27501020c17a2faa961922"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=5ca8082a-b836-4220-9852-3384016b781e</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>sn_auth_token</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">password2</internal_type>
-        <label>Credential Value</label>
-        <mandatory>false</mandatory>
-        <max_length>255</max_length>
-        <model display_value="Look up Boot Volume Attachments">19aec904db27501020c17a2faa96191c</model>
-        <model_id>19aec904db27501020c17a2faa96191c</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_19aec904db27501020c17a2faa96191c</name>
-        <next_element/>
-        <order>7</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>a9aec904db27501020c17a2faa961922</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume Attachments">c5ae8904db27501020c17a2faa9619de</action>
-        <cid>5f729f29-057f-4b09-b947-2f0d1107ab4c</cid>
-        <extended_inputs/>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <label>Post Processing</label>
-        <order>3</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>21aec904db27501020c17a2faa961934</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 15:21:45</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=21aec904db27501020c17a2faa961934"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>21aec904db27501020c17a2faa961934</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:33:00</sys_created_on>
-        <sys_id>2daec904db27501020c17a2faa961955</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:33:00</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>21aec904db27501020c17a2faa961934</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:33:00</sys_created_on>
-        <sys_id>edaec904db27501020c17a2faa961955</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 15:21:45</sys_updated_on>
-        <value>(function execute(inputs, outputs) {
-// ... code ...
-  var data = new Array();
-    var document;
-    var documents = new Object();
-
-    if (inputs.status == '200') {
-        try {
-            var responseData = JSON.parse(inputs.response);
-          	outputs.bootvolumeattachmentlist = responseData;
-            for (var i = 0; i &lt; responseData.length; i++) {
-                var document = new Object();
-                document.label = responseData[i].displayName;
-                document.name = responseData[i].id;
-                data.push(document);
-            }
-        } catch (ex) {
-            var dummyDoc = new Object();
-            dummyDoc.label = '&lt;No Boot Volume Retrieved&gt;';
-            dummyDoc.name = null;
-            data.push(dummyDoc);
-        } finally {
-            documents.data = data;
-            outputs.documents = documents;
-            outputs.status = "Success";
-        }
-    } 
-  else {
-        var errMsgs = new OracleBootVolume_ErrorHandling().errorHandler(inputs.response);
-        outputs.error_message = errMsgs[0];
-        outputs.status = errMsgs[1];
-    }
-})(inputs, outputs);
-</value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=21aec904db27501020c17a2faa961934"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>21aec904db27501020c17a2faa961934</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:33:00</sys_created_on>
-        <sys_id>e5aec904db27501020c17a2faa961955</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:33:00</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>response</field>
-        <id>21aec904db27501020c17a2faa961934</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:33:00</sys_created_on>
-        <sys_id>69aec904db27501020c17a2faa961956</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:33:00</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_21aec904db27501020c17a2faa961934</table>
-        <value>{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>21aec904db27501020c17a2faa961934</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:33:00</sys_created_on>
-        <sys_id>a9aec904db27501020c17a2faa961955</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:33:00</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>status</field>
-        <id>21aec904db27501020c17a2faa961934</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:33:00</sys_created_on>
-        <sys_id>2daec904db27501020c17a2faa961956</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:33:00</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_21aec904db27501020c17a2faa961934</table>
-        <value>{{step[16a8752c-7379-44e9-94a6-25d86326b4aa].status_code}}</value>
-    </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=21aec904db27501020c17a2faa961934^sys_idNOT IN29aec904db27501020c17a2faa96193c,e9aec904db27501020c17a2faa961936"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>response</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>response</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
-        <model_id>21aec904db27501020c17a2faa961934</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_21aec904db27501020c17a2faa961934</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>29aec904db27501020c17a2faa96193c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>status</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>status</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
-        <model_id>21aec904db27501020c17a2faa961934</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_21aec904db27501020c17a2faa961934</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>e9aec904db27501020c17a2faa961936</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:59</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=21aec904db27501020c17a2faa961934^sys_idNOT IN25aec904db27501020c17a2faa961948,31b48db9dba42050b7a7e5bd0b9619e3,6e999588db27501020c17a2faa96197d,e9aec904db27501020c17a2faa96194d"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f4379b5b-a443-408c-93ef-3400243b7cfd</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>errormessage</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>errormessage</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
-        <model_id>21aec904db27501020c17a2faa961934</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_21aec904db27501020c17a2faa961934</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>25aec904db27501020c17a2faa961948</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>child_label=bootVolumeAttachmentList_child,child_name=bootVolumeAttachmentList_child,child_type=object,child_type_label=Object,child_uiUniqueId=7c968ce5-0b22-44aa-b800-ee21b3f81ca1,co_type_name=FDf8c33b753f2c205056af2cfba914738d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=6acb5bd7-aade-470a-b4ee-db3e4d2db9ba</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>bootvolumeattachmentlist</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>bootVolumeAttachmentList</label>
-        <mandatory>true</mandatory>
-        <max_length>65000</max_length>
-        <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
-        <model_id>21aec904db27501020c17a2faa961934</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_21aec904db27501020c17a2faa961934</name>
-        <next_element/>
-        <order>4</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-11-18 15:21:44</sys_created_on>
-        <sys_id>31b48db9dba42050b7a7e5bd0b9619e3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-19 04:06:32</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=dbbc9c80-93ee-4311-a339-3293f69bc39e</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>documents</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="JSON">json</internal_type>
-        <label>documents</label>
-        <mandatory>true</mandatory>
-        <max_length>4000</max_length>
-        <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
-        <model_id>21aec904db27501020c17a2faa961934</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_21aec904db27501020c17a2faa961934</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 13:20:50</sys_created_on>
-        <sys_id>6e999588db27501020c17a2faa96197d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0619e04a-4852-4488-b385-3884c59c92cc</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>status</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>status</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Post Processing">21aec904db27501020c17a2faa961934</model>
-        <model_id>21aec904db27501020c17a2faa961934</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_21aec904db27501020c17a2faa961934</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:59</sys_created_on>
-        <sys_id>e9aec904db27501020c17a2faa96194d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 10:04:43</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Look up Boot Volume Attachments">c5ae8904db27501020c17a2faa9619de</action>
-        <cid>b304566e-564e-4302-bbf8-9837a48691c4</cid>
-        <extended_inputs/>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <label>Pre Processing</label>
-        <order>1</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>d5ae8904db27501020c17a2faa9619f1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:14:08</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=d5ae8904db27501020c17a2faa9619f1"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>d5ae8904db27501020c17a2faa9619f1</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>1daec904db27501020c17a2faa961918</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:58</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>d5ae8904db27501020c17a2faa9619f1</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>ddaec904db27501020c17a2faa961918</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:14:08</sys_updated_on>
-        <value>(function execute(inputs, outputs) {
-// ... code ...
-  try{
-    var obvUtil = new OracleBootVolumeUtils();
-    obvUtil.validateInputVariables(inputs, outputs);
-   obvUtil.validateMandatoryVariables(inputs,["tenancyID"]);
-     if(inputs.tenancyID &amp;&amp; inputs.compartmentId){
-		outputs.compartmentid = inputs.compartmentId;
-    }
-    else if(inputs.tenancyID){
-    	outputs.compartmentid = inputs.tenancyID;
-    }
-  
-  }
-  catch(ex){
-    
-    throw new Error("Mandatory Fields Should be provided");
-    
-  }
-})(inputs, outputs);
-</value>
-        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=d5ae8904db27501020c17a2faa9619f1"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>d5ae8904db27501020c17a2faa9619f1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>d5aec904db27501020c17a2faa961918</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:58</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>availabilityDomain</field>
-        <id>d5ae8904db27501020c17a2faa9619f1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>ddaec904db27501020c17a2faa961919</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:58</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_d5ae8904db27501020c17a2faa9619f1</table>
-        <value>{{action.availability_domain}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>bootVolumeId</field>
-        <id>d5ae8904db27501020c17a2faa9619f1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>1daec904db27501020c17a2faa961919</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:58</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_d5ae8904db27501020c17a2faa9619f1</table>
-        <value>{{action.boot_volume_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>compartmentId</field>
-        <id>d5ae8904db27501020c17a2faa9619f1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>59aec904db27501020c17a2faa961919</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:58</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_d5ae8904db27501020c17a2faa9619f1</table>
-        <value>{{action.compartment_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>d5ae8904db27501020c17a2faa9619f1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>99aec904db27501020c17a2faa961918</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-24 12:32:58</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>tenancyID</field>
-        <id>d5ae8904db27501020c17a2faa9619f1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-28 04:05:49</sys_created_on>
-        <sys_id>6790e236db40601020c17a2faa9619a6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:05:49</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_d5ae8904db27501020c17a2faa9619f1</table>
-        <value>{{action.tenancy_id}}</value>
-    </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=d5ae8904db27501020c17a2faa9619f1^sys_idNOT IN2f90e236db40601020c17a2faa96199a,51ae8904db27501020c17a2faa9619fa"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>tenancyID</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>tenancyID</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">d5ae8904db27501020c17a2faa9619f1</model>
-        <model_id>d5ae8904db27501020c17a2faa9619f1</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_d5ae8904db27501020c17a2faa9619f1</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-28 04:05:49</sys_created_on>
-        <sys_id>2f90e236db40601020c17a2faa96199a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-28 04:05:49</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>compartmentId</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>compartmentId</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">d5ae8904db27501020c17a2faa9619f1</model>
-        <model_id>d5ae8904db27501020c17a2faa9619f1</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_d5ae8904db27501020c17a2faa9619f1</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>51ae8904db27501020c17a2faa9619fa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-19 07:21:09</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=d5ae8904db27501020c17a2faa9619f1^sys_idNOT INd1aec904db27501020c17a2faa961905"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ab9dd0f5-ed73-4696-bc17-7307d3a78e9f</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>compartmentid</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>compartmentid</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">d5ae8904db27501020c17a2faa9619f1</model>
-        <model_id>d5ae8904db27501020c17a2faa9619f1</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_d5ae8904db27501020c17a2faa9619f1</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-24 12:32:58</sys_created_on>
-        <sys_id>d1aec904db27501020c17a2faa961905</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-18 10:04:42</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de^sys_idNOT IN6790e236db40601020c17a2faa961991,af90e236db40601020c17a2faa961972"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>compartment_id</element>
@@ -7049,11 +4486,11 @@
         <sys_created_on>2020-10-28 04:05:49</sys_created_on>
         <sys_id>6790e236db40601020c17a2faa961991</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Compartment ID</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de_compartment_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-28 04:05:49</sys_updated_on>
         <url/>
@@ -7072,11 +4509,11 @@
         <sys_created_on>2020-10-28 04:05:48</sys_created_on>
         <sys_id>af90e236db40601020c17a2faa961972</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tenancy ID</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de_tenancy_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-28 04:05:48</sys_updated_on>
         <url/>
@@ -7093,6 +4530,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 04:05:48</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7112,6 +4550,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7131,6 +4570,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7150,6 +4590,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>3</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7169,6 +4610,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>4</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7188,6 +4630,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>5</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7207,6 +4650,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>6</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7226,6 +4670,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>7</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7245,6 +4690,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>8</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7264,6 +4710,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>9</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7283,6 +4730,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>10</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7302,6 +4750,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>11</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7321,6 +4770,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>12</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7340,6 +4790,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>13</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7359,6 +4810,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>14</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:41</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7378,6 +4830,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>15</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7397,6 +4850,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>16</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7416,6 +4870,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_c5ae8904db27501020c17a2faa9619de</name>
             <sequence>17</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-18 10:04:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -7441,11 +4896,11 @@
         <sys_created_on>2020-10-19 07:21:12</sys_created_on>
         <sys_id>0a07f084db84205020c17a2faa9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Output</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-19 07:21:12</sys_updated_on>
         <url/>
@@ -7464,11 +4919,11 @@
         <sys_created_on>2020-09-24 12:33:00</sys_created_on>
         <sys_id>75aec904db27501020c17a2faa961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:33:00</sys_updated_on>
         <url/>
@@ -7487,11 +4942,11 @@
         <sys_created_on>2020-09-24 12:33:00</sys_created_on>
         <sys_id>7daec904db27501020c17a2faa961963</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de_errormessage_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-24 12:33:00</sys_updated_on>
         <url/>
@@ -7510,14 +4965,77 @@
         <sys_created_on>2020-10-19 07:21:11</sys_created_on>
         <sys_id>ca07f084db84205020c17a2faa9619a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Boot Volume Detailed Attachment List</sys_name>
         <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de_boot_volume_detailed_attachment_list_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-19 07:21:11</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de^sys_idNOT IN3c7ba6ad53c320106cc4ddeeff7b1270,747ba6ad53c320106cc4ddeeff7b1272,b07ba6ad53c320106cc4ddeeff7b1273"/>
+    <sys_choice field="status" table="var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-22 10:49:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c7ba6ad53c320106cc4ddeeff7b1270</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-22 10:49:05</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-22 10:49:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>747ba6ad53c320106cc4ddeeff7b1272</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-22 10:49:05</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_c5ae8904db27501020c17a2faa9619de</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-22 10:49:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b07ba6ad53c320106cc4ddeeff7b1273</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-22 10:49:05</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+    </sys_choice>
 </record_update>

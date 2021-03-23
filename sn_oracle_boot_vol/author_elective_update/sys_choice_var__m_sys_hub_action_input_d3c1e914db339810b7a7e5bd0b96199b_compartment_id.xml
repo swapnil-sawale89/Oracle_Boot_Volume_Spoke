@@ -6,13 +6,13 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 04:36:18</sys_created_on>
-            <sys_id>c7a53b25dba02050b7a7e5bd0b9619af</sys_id>
+            <sys_id>110288422f87601041b2f64ef699b6f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>compartment_id</sys_name>
+            <sys_name/>
             <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
             <sys_policy/>
             <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
-            <sys_update_name>sys_choice_var__m_sys_hub_action_input_d3c1e914db339810b7a7e5bd0b96199b_compartment_id</sys_update_name>
+            <sys_update_name/>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-10-28 04:36:18</sys_updated_on>
         </sys_choice_set>
@@ -24,15 +24,16 @@
             <label>-- None --</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_d3c1e914db339810b7a7e5bd0b96199b</name>
-            <sequence>0</sequence>
+            <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 04:36:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d697eebadb40601020c17a2faa961954</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-28 04:36:38</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>swapnil.sawale@snc</sys_updated_by>
+            <sys_updated_on>2021-03-23 12:04:33</sys_updated_on>
             <value/>
         </sys_choice>
     </sys_choice>

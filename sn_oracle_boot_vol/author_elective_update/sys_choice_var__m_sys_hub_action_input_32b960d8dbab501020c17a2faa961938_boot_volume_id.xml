@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-07 09:31:25</sys_created_on>
-            <sys_id>ad66f4bddb642050b7a7e5bd0b961993</sys_id>
+            <sys_id>1151048e2f47601041b2f64ef699b6bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>boot_volume_id</sys_name>
             <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -25,6 +25,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_32b960d8dbab501020c17a2faa961938</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-07 09:31:25</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -44,6 +45,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_32b960d8dbab501020c17a2faa961938</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-19 11:26:53</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -63,6 +65,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_32b960d8dbab501020c17a2faa961938</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 10:16:19</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -82,6 +85,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_32b960d8dbab501020c17a2faa961938</name>
             <sequence>3</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 10:16:19</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -101,6 +105,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_32b960d8dbab501020c17a2faa961938</name>
             <sequence>4</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 10:16:19</sys_created_on>
             <sys_domain>global</sys_domain>

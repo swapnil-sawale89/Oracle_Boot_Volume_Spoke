@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">bb36766fdbd7101020c17a2faa961957</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="connection_attributes" sys_domain="global" view="Default view">bb36ba6fdbd7101020c17a2faa961979</sys_ui_section>
+            <sys_ui_section display_value="">bb36ba6fdbd7101020c17a2faa961979</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-09-23 06:48:39</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">bb36766fdbd7101020c17a2faa961957</sys_ui_form>
-            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="connection_attributes" sys_domain="global" view="Default view">b736ba6fdbd7101020c17a2faa961974</sys_ui_section>
+            <sys_ui_section display_value="">b736ba6fdbd7101020c17a2faa961974</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-09-23 06:48:39</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">bb36766fdbd7101020c17a2faa961957</sys_ui_form>
-            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="connection_attributes" sys_domain="global" view="Default view">4446ba6fdbd7101020c17a2faa961982</sys_ui_section>
+            <sys_ui_section display_value="">4446ba6fdbd7101020c17a2faa961982</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-09-23 06:48:40</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">bb36766fdbd7101020c17a2faa961957</sys_ui_form>
-            <sys_ui_section caption="Default Value" display_value="Default Value" name="connection_attributes" sys_domain="global" view="Default view">0446ba6fdbd7101020c17a2faa96197f</sys_ui_section>
+            <sys_ui_section display_value="">0446ba6fdbd7101020c17a2faa96197f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-09-23 06:48:39</sys_updated_on>
         </sys_ui_form_section>

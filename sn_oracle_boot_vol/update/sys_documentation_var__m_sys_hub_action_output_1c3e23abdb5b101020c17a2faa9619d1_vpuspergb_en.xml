@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vpuspergb" label="VPUS Per GB" language="en" table="var__m_sys_hub_action_output_1c3e23abdb5b101020c17a2faa9619d1">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vpuspergb</element>
+            <help/>
+            <hint/>
+            <label>VPUS Per GB</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_1c3e23abdb5b101020c17a2faa9619d1</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-24 07:52:15</sys_created_on>
+            <sys_id>896e4404dba3501020c17a2faa96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>VPUS Per GB</sys_name>
+            <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oracle Boot Volume Spoke">fc15aa1fdb57585020c17a2faa96194b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1c3e23abdb5b101020c17a2faa9619d1_vpuspergb_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-24 07:52:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

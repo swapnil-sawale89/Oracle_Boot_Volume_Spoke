@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 10:26:25</sys_created_on>
-            <sys_id>d75674bddb642050b7a7e5bd0b96198e</sys_id>
+            <sys_id>2a41408e2f47601041b2f64ef699b6f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>compartment_id</sys_name>
             <sys_package display_value="Oracle Boot Volume Spoke" source="sn_oracle_boot_vol">fc15aa1fdb57585020c17a2faa96194b</sys_package>
@@ -25,6 +25,7 @@
             <language>en</language>
             <name>var__m_sys_hub_action_input_51427f2fdb5b101020c17a2faa9619d1</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-10-28 10:26:25</sys_created_on>
             <sys_domain>global</sys_domain>
